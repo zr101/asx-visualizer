@@ -1,11 +1,11 @@
 {
   "date": "2026-01-17",
   "total_stocks": 2201,
-  "market_cap_total": 3874791560004.9297,
-  "avg_change": 0.6256112903056129,
-  "gainers": 996,
-  "losers": 721,
-  "unchanged": 483,
+  "market_cap_total": 3880629755689.3965,
+  "avg_change": 0.6321110055717616,
+  "gainers": 994,
+  "losers": 714,
+  "unchanged": 492,
   "top_gainer": {
     "symbol": "ASX:ZLD",
     "name": "ZLD",
