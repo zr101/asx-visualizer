@@ -1,0 +1,35 @@
+# API & Web
+fastapi>=0.109.0
+uvicorn>=0.27.0
+httpx>=0.26.0
+requests>=2.31.0
+
+# Data Processing
+pandas>=2.2.0
+numpy>=1.26.0
+polars>=0.20.0  # Fast alternative to pandas
+
+# Database
+sqlalchemy>=2.0.0
+sqlite-utils>=3.35
+psycopg2-binary>=2.9.9  # PostgreSQL
+
+# Analysis
+ta>=0.11.0  # Technical analysis library
+scipy>=1.12.0
+scikit-learn>=1.4.0
+
+# Utilities
+python-dotenv>=1.0.0
+pydantic>=2.5.0
+schedule>=1.2.0
+rich>=13.7.0  # Beautiful terminal output
+typer>=0.9.0  # CLI framework
+
+# Development
+jupyter>=1.0.0
+matplotlib>=3.8.0
+plotly>=5.18.0
+pytest>=8.0.0
+black>=24.1.0
+ruff>=0.1.0

@@ -1,0 +1,24 @@
+{
+  "date": "2026-01-17",
+  "total_stocks": 2201,
+  "market_cap_total": 3874791560004.9297,
+  "avg_change": 0.6256112903056129,
+  "gainers": 996,
+  "losers": 721,
+  "unchanged": 483,
+  "top_gainer": {
+    "symbol": "ASX:ZLD",
+    "name": "ZLD",
+    "change": 136.11111111111111
+  },
+  "top_loser": {
+    "symbol": "ASX:GGE",
+    "name": "GGE",
+    "change": -50.0
+  },
+  "most_volume": {
+    "symbol": "ASX:OSX",
+    "name": "OSX",
+    "volume": 104517211.0
+  }
+}

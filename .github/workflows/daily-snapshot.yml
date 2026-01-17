@@ -1,0 +1,37 @@
+name: Daily ASX Snapshot
+
+on:
+  schedule:
+    # Mon-Fri at 8:30 AM UTC (6:30 PM Sydney AEST)
+    - cron: '30 8 * * 1-5'
+  workflow_dispatch:
+
+jobs:
+  fetch-and-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install -r python/requirements.txt
+
+      - name: Fetch daily snapshot
+        run: python python/scripts/fetch_daily_snapshot.py
+
+      - name: Deploy data to frontend
+        run: python python/scripts/deploy_data.py
+
+      - name: Commit and push changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/snapshots frontend/public/data.json
+          git diff --staged --quiet || git commit -m "Daily ASX snapshot $(date -u +'%Y-%m-%d')"
+          git push
