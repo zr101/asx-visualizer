@@ -1,0 +1,16 @@
+# System files
+.DS_Store
+Thumbs.db
+
+# AI Tooling
+.claude/
+
+# Python
+__pycache__/
+*.pyc
+venv/
+.env
+
+# Node
+node_modules/
+.next/
