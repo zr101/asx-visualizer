@@ -1,0 +1,24 @@
+{
+  "date": "2026-01-19",
+  "total_stocks": 2206,
+  "market_cap_total": 3883306049111.659,
+  "avg_change": 0.7411999852286989,
+  "gainers": 814,
+  "losers": 906,
+  "unchanged": 485,
+  "top_gainer": {
+    "symbol": "ASX:GGE",
+    "name": "GGE",
+    "change": 100.0
+  },
+  "top_loser": {
+    "symbol": "ASX:CT1",
+    "name": "CT1",
+    "change": -50.0
+  },
+  "most_volume": {
+    "symbol": "ASX:RML",
+    "name": "RML",
+    "volume": 79704980.0
+  }
+}
