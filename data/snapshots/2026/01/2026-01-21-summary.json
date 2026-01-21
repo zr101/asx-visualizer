@@ -1,0 +1,24 @@
+{
+  "date": "2026-01-21",
+  "total_stocks": 2202,
+  "market_cap_total": 3856102449913.492,
+  "avg_change": 0.5620188127891769,
+  "gainers": 771,
+  "losers": 963,
+  "unchanged": 468,
+  "top_gainer": {
+    "symbol": "ASX:ASM",
+    "name": "ASM",
+    "change": 119.31034482758622
+  },
+  "top_loser": {
+    "symbol": "ASX:HLX",
+    "name": "HLX",
+    "change": -50.0
+  },
+  "most_volume": {
+    "symbol": "ASX:OVT",
+    "name": "OVT",
+    "volume": 187051352.0
+  }
+}
