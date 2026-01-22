@@ -1,0 +1,24 @@
+{
+  "date": "2026-01-22",
+  "total_stocks": 2205,
+  "market_cap_total": 3827618721527.4463,
+  "avg_change": 0.25663855747987396,
+  "gainers": 943,
+  "losers": 813,
+  "unchanged": 449,
+  "top_gainer": {
+    "symbol": "ASX:BP8",
+    "name": "BP8",
+    "change": 100.0
+  },
+  "top_loser": {
+    "symbol": "ASX:SPX",
+    "name": "SPX",
+    "change": -33.33333333333333
+  },
+  "most_volume": {
+    "symbol": "ASX:AAJ",
+    "name": "AAJ",
+    "volume": 112102498.0
+  }
+}
