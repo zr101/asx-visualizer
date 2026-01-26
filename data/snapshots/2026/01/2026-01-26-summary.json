@@ -1,0 +1,24 @@
+{
+  "date": "2026-01-26",
+  "total_stocks": 2203,
+  "market_cap_total": 3859640853400.364,
+  "avg_change": 1.0399820003942508,
+  "gainers": 957,
+  "losers": 794,
+  "unchanged": 452,
+  "top_gainer": {
+    "symbol": "ASX:DTI",
+    "name": "DTI",
+    "change": 88.88888888888891
+  },
+  "top_loser": {
+    "symbol": "ASX:SRN",
+    "name": "SRN",
+    "change": -50.0
+  },
+  "most_volume": {
+    "symbol": "ASX:OVT",
+    "name": "OVT",
+    "volume": 209418328.0
+  }
+}
