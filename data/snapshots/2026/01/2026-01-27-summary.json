@@ -1,0 +1,24 @@
+{
+  "date": "2026-01-27",
+  "total_stocks": 2208,
+  "market_cap_total": 3864022681644.938,
+  "avg_change": 0.2543020527999626,
+  "gainers": 899,
+  "losers": 885,
+  "unchanged": 424,
+  "top_gainer": {
+    "symbol": "ASX:AON",
+    "name": "AON",
+    "change": 199.99999999999994
+  },
+  "top_loser": {
+    "symbol": "ASX:IVZ",
+    "name": "IVZ",
+    "change": -56.2962962962963
+  },
+  "most_volume": {
+    "symbol": "ASX:AON",
+    "name": "AON",
+    "volume": 145223752.0
+  }
+}
