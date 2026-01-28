@@ -1,0 +1,24 @@
+{
+  "date": "2026-01-28",
+  "total_stocks": 2208,
+  "market_cap_total": 3863840744275.402,
+  "avg_change": 0.4219435381784983,
+  "gainers": 764,
+  "losers": 970,
+  "unchanged": 474,
+  "top_gainer": {
+    "symbol": "ASX:AON",
+    "name": "AON",
+    "change": 199.99999999999994
+  },
+  "top_loser": {
+    "symbol": "ASX:BP8",
+    "name": "BP8",
+    "change": -50.0
+  },
+  "most_volume": {
+    "symbol": "ASX:AON",
+    "name": "AON",
+    "volume": 145223752.0
+  }
+}
