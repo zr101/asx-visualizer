@@ -1,0 +1,24 @@
+{
+  "date": "2026-01-30",
+  "total_stocks": 2208,
+  "market_cap_total": 3887143533241.8545,
+  "avg_change": -1.232405036444757,
+  "gainers": 680,
+  "losers": 1127,
+  "unchanged": 400,
+  "top_gainer": {
+    "symbol": "ASX:ADS",
+    "name": "ADS",
+    "change": 100.0
+  },
+  "top_loser": {
+    "symbol": "ASX:TRP",
+    "name": "TRP",
+    "change": -33.87096774193549
+  },
+  "most_volume": {
+    "symbol": "ASX:OVT",
+    "name": "OVT",
+    "volume": 291754430.0
+  }
+}
