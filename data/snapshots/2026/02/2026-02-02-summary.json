@@ -1,0 +1,24 @@
+{
+  "date": "2026-02-02",
+  "total_stocks": 2204,
+  "market_cap_total": 3813146996986.34,
+  "avg_change": -1.9342017136266072,
+  "gainers": 492,
+  "losers": 1313,
+  "unchanged": 398,
+  "top_gainer": {
+    "symbol": "ASX:GGE",
+    "name": "GGE",
+    "change": 100.0
+  },
+  "top_loser": {
+    "symbol": "ASX:ADR",
+    "name": "ADR",
+    "change": -33.33333333333333
+  },
+  "most_volume": {
+    "symbol": "ASX:NAE",
+    "name": "NAE",
+    "volume": 87403945.0
+  }
+}
