@@ -1,0 +1,24 @@
+{
+  "date": "2026-02-03",
+  "total_stocks": 2204,
+  "market_cap_total": 3815481963094.2324,
+  "avg_change": 0.9276760835454756,
+  "gainers": 1124,
+  "losers": 627,
+  "unchanged": 449,
+  "top_gainer": {
+    "symbol": "ASX:SLS",
+    "name": "SLS",
+    "change": 67.03296703296702
+  },
+  "top_loser": {
+    "symbol": "ASX:OVT",
+    "name": "OVT",
+    "change": -50.0
+  },
+  "most_volume": {
+    "symbol": "ASX:QOR",
+    "name": "QOR",
+    "volume": 112065373.0
+  }
+}
