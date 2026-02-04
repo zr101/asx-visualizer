@@ -1,0 +1,24 @@
+{
+  "date": "2026-02-04",
+  "total_stocks": 2205,
+  "market_cap_total": 3786738875585.4956,
+  "avg_change": 0.09460150753688196,
+  "gainers": 801,
+  "losers": 965,
+  "unchanged": 437,
+  "top_gainer": {
+    "symbol": "ASX:XPN",
+    "name": "XPN",
+    "change": 38.88888888888891
+  },
+  "top_loser": {
+    "symbol": "ASX:ADS",
+    "name": "ADS",
+    "change": -50.0
+  },
+  "most_volume": {
+    "symbol": "ASX:ABR",
+    "name": "ABR",
+    "volume": 59881062.0
+  }
+}
