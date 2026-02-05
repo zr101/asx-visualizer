@@ -1,0 +1,24 @@
+{
+  "date": "2026-02-05",
+  "total_stocks": 2203,
+  "market_cap_total": 3831821973577.386,
+  "avg_change": -1.2143840343640615,
+  "gainers": 673,
+  "losers": 1126,
+  "unchanged": 404,
+  "top_gainer": {
+    "symbol": "ASX:OVT",
+    "name": "OVT",
+    "change": 100.0
+  },
+  "top_loser": {
+    "symbol": "ASX:RRE",
+    "name": "RRE",
+    "change": -44.927536231884055
+  },
+  "most_volume": {
+    "symbol": "ASX:BRY",
+    "name": "BRY",
+    "volume": 91177570.0
+  }
+}
