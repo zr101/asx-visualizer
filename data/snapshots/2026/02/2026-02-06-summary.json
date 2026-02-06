@@ -1,0 +1,24 @@
+{
+  "date": "2026-02-06",
+  "total_stocks": 2204,
+  "market_cap_total": 3832026279045.58,
+  "avg_change": -2.560428427299646,
+  "gainers": 336,
+  "losers": 1482,
+  "unchanged": 383,
+  "top_gainer": {
+    "symbol": "ASX:SRN",
+    "name": "SRN",
+    "change": 100.0
+  },
+  "top_loser": {
+    "symbol": "ASX:WEB",
+    "name": "WEB",
+    "change": -29.52380952380953
+  },
+  "most_volume": {
+    "symbol": "ASX:ATH",
+    "name": "ATH",
+    "volume": 242783902.0
+  }
+}
