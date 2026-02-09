@@ -1,0 +1,24 @@
+{
+  "date": "2026-02-09",
+  "total_stocks": 2205,
+  "market_cap_total": 3733642350987.1777,
+  "avg_change": 2.087751591806344,
+  "gainers": 1342,
+  "losers": 451,
+  "unchanged": 411,
+  "top_gainer": {
+    "symbol": "ASX:FBR",
+    "name": "FBR",
+    "change": 66.66666666666666
+  },
+  "top_loser": {
+    "symbol": "ASX:BUY",
+    "name": "BUY",
+    "change": -33.33333333333333
+  },
+  "most_volume": {
+    "symbol": "ASX:BRY",
+    "name": "BRY",
+    "volume": 91177570.0
+  }
+}
