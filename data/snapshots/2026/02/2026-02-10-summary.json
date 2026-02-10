@@ -1,0 +1,24 @@
+{
+  "date": "2026-02-10",
+  "total_stocks": 2203,
+  "market_cap_total": 3719507430986.784,
+  "avg_change": 1.0582588489690938,
+  "gainers": 1107,
+  "losers": 644,
+  "unchanged": 452,
+  "top_gainer": {
+    "symbol": "ASX:EM3",
+    "name": "EM3",
+    "change": 55.55555555555558
+  },
+  "top_loser": {
+    "symbol": "ASX:OVT",
+    "name": "OVT",
+    "change": -50.0
+  },
+  "most_volume": {
+    "symbol": "ASX:BMG",
+    "name": "BMG",
+    "volume": 51986574.0
+  }
+}
