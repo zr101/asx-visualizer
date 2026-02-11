@@ -1,0 +1,24 @@
+{
+  "date": "2026-02-11",
+  "total_stocks": 2203,
+  "market_cap_total": 3805914828704.901,
+  "avg_change": 0.6237750693254304,
+  "gainers": 992,
+  "losers": 738,
+  "unchanged": 473,
+  "top_gainer": {
+    "symbol": "ASX:GR8",
+    "name": "GR8",
+    "change": 142.5531914893617
+  },
+  "top_loser": {
+    "symbol": "ASX:ROG",
+    "name": "ROG",
+    "change": -33.33333333333333
+  },
+  "most_volume": {
+    "symbol": "ASX:NAE",
+    "name": "NAE",
+    "volume": 205010063.0
+  }
+}
