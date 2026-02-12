@@ -1,0 +1,24 @@
+{
+  "date": "2026-02-12",
+  "total_stocks": 2201,
+  "market_cap_total": 3862841659543.953,
+  "avg_change": -0.333722842858461,
+  "gainers": 719,
+  "losers": 1023,
+  "unchanged": 459,
+  "top_gainer": {
+    "symbol": "ASX:QEM",
+    "name": "QEM",
+    "change": 68.75
+  },
+  "top_loser": {
+    "symbol": "ASX:BP8",
+    "name": "BP8",
+    "change": -33.33333333333333
+  },
+  "most_volume": {
+    "symbol": "ASX:AMP",
+    "name": "AMP",
+    "volume": 97327105.0
+  }
+}
