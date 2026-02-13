@@ -1,0 +1,24 @@
+{
+  "date": "2026-02-13",
+  "total_stocks": 2198,
+  "market_cap_total": 3863443902040.6226,
+  "avg_change": -1.6573051854152197,
+  "gainers": 435,
+  "losers": 1330,
+  "unchanged": 433,
+  "top_gainer": {
+    "symbol": "ASX:GES",
+    "name": "GES",
+    "change": 66.66666666666666
+  },
+  "top_loser": {
+    "symbol": "ASX:EGA",
+    "name": "EGA",
+    "change": -61.53846153846154
+  },
+  "most_volume": {
+    "symbol": "ASX:EQR",
+    "name": "EQR",
+    "volume": 50603454.0
+  }
+}
