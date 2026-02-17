@@ -1,0 +1,24 @@
+{
+  "date": "2026-02-17",
+  "total_stocks": 2202,
+  "market_cap_total": 3814693971700.7734,
+  "avg_change": -0.26238530529040716,
+  "gainers": 722,
+  "losers": 981,
+  "unchanged": 498,
+  "top_gainer": {
+    "symbol": "ASX:AUK",
+    "name": "AUK",
+    "change": 50.0
+  },
+  "top_loser": {
+    "symbol": "ASX:EGA",
+    "name": "EGA",
+    "change": -61.53846153846154
+  },
+  "most_volume": {
+    "symbol": "ASX:BLZ",
+    "name": "BLZ",
+    "volume": 92642650.0
+  }
+}
