@@ -1,0 +1,24 @@
+{
+  "date": "2026-02-18",
+  "total_stocks": 2202,
+  "market_cap_total": 4111823586989.7847,
+  "avg_change": 0.5190413727870785,
+  "gainers": 1024,
+  "losers": 701,
+  "unchanged": 476,
+  "top_gainer": {
+    "symbol": "ASX:NAE",
+    "name": "NAE",
+    "change": 66.66666666666666
+  },
+  "top_loser": {
+    "symbol": "ASX:C7A",
+    "name": "C7A",
+    "change": -25.0
+  },
+  "most_volume": {
+    "symbol": "ASX:NAE",
+    "name": "NAE",
+    "volume": 100451500.0
+  }
+}
