@@ -1,0 +1,24 @@
+{
+  "date": "2026-02-19",
+  "total_stocks": 2205,
+  "market_cap_total": 4143778548676.6035,
+  "avg_change": 0.22415681688762534,
+  "gainers": 1019,
+  "losers": 699,
+  "unchanged": 487,
+  "top_gainer": {
+    "symbol": "ASX:ERL",
+    "name": "ERL",
+    "change": 41.66666666666667
+  },
+  "top_loser": {
+    "symbol": "ASX:RON",
+    "name": "RON",
+    "change": -35.18518518518519
+  },
+  "most_volume": {
+    "symbol": "ASX:ZIP",
+    "name": "ZIP",
+    "volume": 218628186.0
+  }
+}
