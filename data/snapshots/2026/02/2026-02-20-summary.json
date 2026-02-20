@@ -1,0 +1,24 @@
+{
+  "date": "2026-02-20",
+  "total_stocks": 2203,
+  "market_cap_total": 4156379046945.997,
+  "avg_change": -0.0019626395890834894,
+  "gainers": 813,
+  "losers": 916,
+  "unchanged": 473,
+  "top_gainer": {
+    "symbol": "ASX:REC",
+    "name": "REC",
+    "change": 109.09090909090911
+  },
+  "top_loser": {
+    "symbol": "ASX:SRN",
+    "name": "SRN",
+    "change": -50.0
+  },
+  "most_volume": {
+    "symbol": "ASX:ZIP",
+    "name": "ZIP",
+    "volume": 93496014.0
+  }
+}
