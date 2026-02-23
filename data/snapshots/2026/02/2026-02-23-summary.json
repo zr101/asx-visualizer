@@ -1,0 +1,24 @@
+{
+  "date": "2026-02-23",
+  "total_stocks": 2203,
+  "market_cap_total": 4169553624440.2974,
+  "avg_change": 0.1173587697387853,
+  "gainers": 767,
+  "losers": 989,
+  "unchanged": 446,
+  "top_gainer": {
+    "symbol": "ASX:SRN",
+    "name": "SRN",
+    "change": 100.0
+  },
+  "top_loser": {
+    "symbol": "ASX:ABE",
+    "name": "ABE",
+    "change": -37.5
+  },
+  "most_volume": {
+    "symbol": "ASX:LSR",
+    "name": "LSR",
+    "volume": 78064141.0
+  }
+}
