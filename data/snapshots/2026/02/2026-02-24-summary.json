@@ -1,0 +1,24 @@
+{
+  "date": "2026-02-24",
+  "total_stocks": 2202,
+  "market_cap_total": 4156114849219.1553,
+  "avg_change": -0.14473080014825182,
+  "gainers": 784,
+  "losers": 962,
+  "unchanged": 456,
+  "top_gainer": {
+    "symbol": "ASX:ABE",
+    "name": "ABE",
+    "change": 79.99999999999999
+  },
+  "top_loser": {
+    "symbol": "ASX:MMR",
+    "name": "MMR",
+    "change": -50.0
+  },
+  "most_volume": {
+    "symbol": "ASX:ZIP",
+    "name": "ZIP",
+    "volume": 60975892.0
+  }
+}
