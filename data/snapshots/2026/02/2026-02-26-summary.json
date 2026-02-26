@@ -1,0 +1,24 @@
+{
+  "date": "2026-02-26",
+  "total_stocks": 2204,
+  "market_cap_total": 3852523377676.4824,
+  "avg_change": 0.44152257830648717,
+  "gainers": 1013,
+  "losers": 725,
+  "unchanged": 464,
+  "top_gainer": {
+    "symbol": "ASX:HT8",
+    "name": "HT8",
+    "change": 70.0
+  },
+  "top_loser": {
+    "symbol": "ASX:PXR",
+    "name": "PXR",
+    "change": -50.0
+  },
+  "most_volume": {
+    "symbol": "ASX:LTR",
+    "name": "LTR",
+    "volume": 308899320.0
+  }
+}
