@@ -1,0 +1,24 @@
+{
+  "date": "2026-02-27",
+  "total_stocks": 2205,
+  "market_cap_total": 3917146095915.5674,
+  "avg_change": 0.3979176389695404,
+  "gainers": 940,
+  "losers": 815,
+  "unchanged": 449,
+  "top_gainer": {
+    "symbol": "ASX:HFY",
+    "name": "HFY",
+    "change": 162.5
+  },
+  "top_loser": {
+    "symbol": "ASX:CHM",
+    "name": "CHM",
+    "change": -50.0
+  },
+  "most_volume": {
+    "symbol": "ASX:ARU",
+    "name": "ARU",
+    "volume": 188828394.0
+  }
+}
