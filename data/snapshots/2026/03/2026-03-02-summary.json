@@ -1,0 +1,24 @@
+{
+  "date": "2026-03-02",
+  "total_stocks": 2205,
+  "market_cap_total": 4023199435649.3413,
+  "avg_change": -0.5069896177518567,
+  "gainers": 678,
+  "losers": 1116,
+  "unchanged": 411,
+  "top_gainer": {
+    "symbol": "ASX:CHM",
+    "name": "CHM",
+    "change": 100.0
+  },
+  "top_loser": {
+    "symbol": "ASX:HLX",
+    "name": "HLX",
+    "change": -50.0
+  },
+  "most_volume": {
+    "symbol": "ASX:EQR",
+    "name": "EQR",
+    "volume": 83269733.0
+  }
+}
