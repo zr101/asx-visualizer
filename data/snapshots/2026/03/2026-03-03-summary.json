@@ -1,0 +1,24 @@
+{
+  "date": "2026-03-03",
+  "total_stocks": 2206,
+  "market_cap_total": 4026790124485.255,
+  "avg_change": -1.2339233239921694,
+  "gainers": 495,
+  "losers": 1281,
+  "unchanged": 428,
+  "top_gainer": {
+    "symbol": "ASX:CMG",
+    "name": "CMG",
+    "change": 42.857142857142854
+  },
+  "top_loser": {
+    "symbol": "ASX:WEL",
+    "name": "WEL",
+    "change": -50.0
+  },
+  "most_volume": {
+    "symbol": "ASX:BRY",
+    "name": "BRY",
+    "volume": 98096635.0
+  }
+}
