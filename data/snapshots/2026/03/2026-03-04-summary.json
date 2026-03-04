@@ -1,0 +1,24 @@
+{
+  "date": "2026-03-04",
+  "total_stocks": 2211,
+  "market_cap_total": 4003565457935.699,
+  "avg_change": -1.385663286742552,
+  "gainers": 465,
+  "losers": 1327,
+  "unchanged": 416,
+  "top_gainer": {
+    "symbol": "ASX:WEL",
+    "name": "WEL",
+    "change": 100.0
+  },
+  "top_loser": {
+    "symbol": "ASX:SPX",
+    "name": "SPX",
+    "change": -33.33333333333333
+  },
+  "most_volume": {
+    "symbol": "ASX:BUY",
+    "name": "BUY",
+    "volume": 54540769.0
+  }
+}
