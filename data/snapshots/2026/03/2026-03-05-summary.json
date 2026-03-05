@@ -1,0 +1,24 @@
+{
+  "date": "2026-03-05",
+  "total_stocks": 2213,
+  "market_cap_total": 4564151342223.135,
+  "avg_change": 1.0140478277186107,
+  "gainers": 1081,
+  "losers": 654,
+  "unchanged": 478,
+  "top_gainer": {
+    "symbol": "ASX:OVT",
+    "name": "OVT",
+    "change": 100.0
+  },
+  "top_loser": {
+    "symbol": "ASX:ECL",
+    "name": "ECL",
+    "change": -69.29046563192905
+  },
+  "most_volume": {
+    "symbol": "ASX:OVT",
+    "name": "OVT",
+    "volume": 848840000.0
+  }
+}
