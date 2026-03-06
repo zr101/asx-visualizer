@@ -1,0 +1,24 @@
+{
+  "date": "2026-03-06",
+  "total_stocks": 2210,
+  "market_cap_total": 4506271243649.156,
+  "avg_change": -0.2427015325080342,
+  "gainers": 655,
+  "losers": 1095,
+  "unchanged": 460,
+  "top_gainer": {
+    "symbol": "ASX:BUY",
+    "name": "BUY",
+    "change": 200.0
+  },
+  "top_loser": {
+    "symbol": "ASX:BLZ",
+    "name": "BLZ",
+    "change": -50.0
+  },
+  "most_volume": {
+    "symbol": "ASX:LIB",
+    "name": "LIB",
+    "volume": 106471376.0
+  }
+}
