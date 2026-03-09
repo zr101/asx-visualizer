@@ -1,0 +1,24 @@
+{
+  "date": "2026-03-09",
+  "total_stocks": 2205,
+  "market_cap_total": 4456359042282.965,
+  "avg_change": -2.926229107051019,
+  "gainers": 286,
+  "losers": 1611,
+  "unchanged": 308,
+  "top_gainer": {
+    "symbol": "ASX:88E",
+    "name": "88E",
+    "change": 86.36363636363639
+  },
+  "top_loser": {
+    "symbol": "ASX:OVT",
+    "name": "OVT",
+    "change": -50.0
+  },
+  "most_volume": {
+    "symbol": "ASX:EQR",
+    "name": "EQR",
+    "volume": 89680957.0
+  }
+}
