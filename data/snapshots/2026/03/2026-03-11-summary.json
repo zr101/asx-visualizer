@@ -1,0 +1,24 @@
+{
+  "date": "2026-03-11",
+  "total_stocks": 2199,
+  "market_cap_total": 3816655706292.2954,
+  "avg_change": 0.5121198822320073,
+  "gainers": 918,
+  "losers": 831,
+  "unchanged": 450,
+  "top_gainer": {
+    "symbol": "ASX:SRN",
+    "name": "SRN",
+    "change": 100.0
+  },
+  "top_loser": {
+    "symbol": "ASX:AUK",
+    "name": "AUK",
+    "change": -33.33333333333333
+  },
+  "most_volume": {
+    "symbol": "ASX:ARU",
+    "name": "ARU",
+    "volume": 82241015.0
+  }
+}
