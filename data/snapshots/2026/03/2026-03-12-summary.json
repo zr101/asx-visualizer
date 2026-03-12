@@ -1,0 +1,24 @@
+{
+  "date": "2026-03-12",
+  "total_stocks": 2199,
+  "market_cap_total": 3836181870574.37,
+  "avg_change": -1.1458170329108763,
+  "gainers": 405,
+  "losers": 1364,
+  "unchanged": 429,
+  "top_gainer": {
+    "symbol": "ASX:SGMCD",
+    "name": "SGMCD",
+    "change": 54.19309372797745
+  },
+  "top_loser": {
+    "symbol": "ASX:AUK",
+    "name": "AUK",
+    "change": -33.33333333333333
+  },
+  "most_volume": {
+    "symbol": "ASX:LSR",
+    "name": "LSR",
+    "volume": 78864115.0
+  }
+}
