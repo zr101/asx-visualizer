@@ -1,0 +1,24 @@
+{
+  "date": "2026-03-13",
+  "total_stocks": 2195,
+  "market_cap_total": 3777773355659.1733,
+  "avg_change": -0.5747923125463195,
+  "gainers": 767,
+  "losers": 965,
+  "unchanged": 461,
+  "top_gainer": {
+    "symbol": "ASX:SGMCD",
+    "name": "SGMCD",
+    "change": 54.19309372797745
+  },
+  "top_loser": {
+    "symbol": "ASX:IMM",
+    "name": "IMM",
+    "change": -88.60759493670886
+  },
+  "most_volume": {
+    "symbol": "ASX:IMM",
+    "name": "IMM",
+    "volume": 432932080.0
+  }
+}
