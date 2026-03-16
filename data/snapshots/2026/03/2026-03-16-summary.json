@@ -1,0 +1,24 @@
+{
+  "date": "2026-03-16",
+  "total_stocks": 2195,
+  "market_cap_total": 3667874745310.168,
+  "avg_change": -1.6214462924607884,
+  "gainers": 584,
+  "losers": 1232,
+  "unchanged": 378,
+  "top_gainer": {
+    "symbol": "ASX:SRN",
+    "name": "SRN",
+    "change": 100.0
+  },
+  "top_loser": {
+    "symbol": "ASX:MPP",
+    "name": "MPP",
+    "change": -53.48837209302325
+  },
+  "most_volume": {
+    "symbol": "ASX:OVT",
+    "name": "OVT",
+    "volume": 319167470.0
+  }
+}
