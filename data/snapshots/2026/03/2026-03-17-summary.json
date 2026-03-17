@@ -1,0 +1,24 @@
+{
+  "date": "2026-03-17",
+  "total_stocks": 2196,
+  "market_cap_total": 3645393713397.6743,
+  "avg_change": -0.002577973795320562,
+  "gainers": 897,
+  "losers": 814,
+  "unchanged": 484,
+  "top_gainer": {
+    "symbol": "ASX:TEG",
+    "name": "TEG",
+    "change": 50.0
+  },
+  "top_loser": {
+    "symbol": "ASX:IND",
+    "name": "IND",
+    "change": -33.33333333333333
+  },
+  "most_volume": {
+    "symbol": "ASX:IMM",
+    "name": "IMM",
+    "volume": 105233596.0
+  }
+}
