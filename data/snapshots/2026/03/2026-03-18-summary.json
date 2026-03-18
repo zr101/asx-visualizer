@@ -1,0 +1,24 @@
+{
+  "date": "2026-03-18",
+  "total_stocks": 2192,
+  "market_cap_total": 3653973178576.1187,
+  "avg_change": 0.18948977823464913,
+  "gainers": 999,
+  "losers": 726,
+  "unchanged": 466,
+  "top_gainer": {
+    "symbol": "ASX:AUK",
+    "name": "AUK",
+    "change": 50.0
+  },
+  "top_loser": {
+    "symbol": "ASX:SRN",
+    "name": "SRN",
+    "change": -50.0
+  },
+  "most_volume": {
+    "symbol": "ASX:OVT",
+    "name": "OVT",
+    "volume": 156823680.0
+  }
+}
