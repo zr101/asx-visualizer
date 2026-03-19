@@ -1,0 +1,24 @@
+{
+  "date": "2026-03-19",
+  "total_stocks": 2191,
+  "market_cap_total": 3651829682809.3765,
+  "avg_change": -2.577845275779562,
+  "gainers": 322,
+  "losers": 1506,
+  "unchanged": 362,
+  "top_gainer": {
+    "symbol": "ASX:PRM",
+    "name": "PRM",
+    "change": 50.0
+  },
+  "top_loser": {
+    "symbol": "ASX:FHS",
+    "name": "FHS",
+    "change": -33.33333333333333
+  },
+  "most_volume": {
+    "symbol": "ASX:OVT",
+    "name": "OVT",
+    "volume": 108387189.0
+  }
+}
