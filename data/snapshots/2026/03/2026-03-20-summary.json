@@ -1,0 +1,24 @@
+{
+  "date": "2026-03-20",
+  "total_stocks": 2192,
+  "market_cap_total": 3553286721718.3135,
+  "avg_change": -0.6528949581035927,
+  "gainers": 551,
+  "losers": 1151,
+  "unchanged": 488,
+  "top_gainer": {
+    "symbol": "ASX:1AD",
+    "name": "1AD",
+    "change": 33.33333333333333
+  },
+  "top_loser": {
+    "symbol": "ASX:RKB",
+    "name": "RKB",
+    "change": -50.0
+  },
+  "most_volume": {
+    "symbol": "ASX:ARU",
+    "name": "ARU",
+    "volume": 197660550.0
+  }
+}
