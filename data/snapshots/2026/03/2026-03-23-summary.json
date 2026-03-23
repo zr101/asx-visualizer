@@ -1,0 +1,24 @@
+{
+  "date": "2026-03-23",
+  "total_stocks": 2196,
+  "market_cap_total": 3527120327591.7593,
+  "avg_change": -3.024966755444603,
+  "gainers": 339,
+  "losers": 1503,
+  "unchanged": 353,
+  "top_gainer": {
+    "symbol": "ASX:KLI",
+    "name": "KLI",
+    "change": 121.15384615384616
+  },
+  "top_loser": {
+    "symbol": "ASX:CHM",
+    "name": "CHM",
+    "change": -50.0
+  },
+  "most_volume": {
+    "symbol": "ASX:BNL",
+    "name": "BNL",
+    "volume": 162913298.0
+  }
+}
