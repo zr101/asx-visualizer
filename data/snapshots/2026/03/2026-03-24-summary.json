@@ -1,0 +1,24 @@
+{
+  "date": "2026-03-24",
+  "total_stocks": 2196,
+  "market_cap_total": 3514872769906.7275,
+  "avg_change": 0.8108084182545026,
+  "gainers": 1116,
+  "losers": 631,
+  "unchanged": 448,
+  "top_gainer": {
+    "symbol": "ASX:CHM",
+    "name": "CHM",
+    "change": 100.0
+  },
+  "top_loser": {
+    "symbol": "ASX:AJL",
+    "name": "AJL",
+    "change": -35.29411764705883
+  },
+  "most_volume": {
+    "symbol": "ASX:LSR",
+    "name": "LSR",
+    "volume": 79390472.0
+  }
+}
