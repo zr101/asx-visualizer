@@ -1,0 +1,24 @@
+{
+  "date": "2026-03-25",
+  "total_stocks": 2199,
+  "market_cap_total": 3522842581374.0234,
+  "avg_change": 2.690846534044211,
+  "gainers": 1385,
+  "losers": 404,
+  "unchanged": 405,
+  "top_gainer": {
+    "symbol": "ASX:NGY",
+    "name": "NGY",
+    "change": 125.64102564102564
+  },
+  "top_loser": {
+    "symbol": "ASX:FHS",
+    "name": "FHS",
+    "change": -50.0
+  },
+  "most_volume": {
+    "symbol": "ASX:PLS",
+    "name": "PLS",
+    "volume": 52287388.0
+  }
+}
