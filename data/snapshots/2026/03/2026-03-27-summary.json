@@ -1,0 +1,24 @@
+{
+  "date": "2026-03-27",
+  "total_stocks": 2197,
+  "market_cap_total": 3581246889248.5635,
+  "avg_change": -0.2908572392822088,
+  "gainers": 626,
+  "losers": 1073,
+  "unchanged": 496,
+  "top_gainer": {
+    "symbol": "ASX:FHS",
+    "name": "FHS",
+    "change": 100.0
+  },
+  "top_loser": {
+    "symbol": "ASX:MOM",
+    "name": "MOM",
+    "change": -50.0
+  },
+  "most_volume": {
+    "symbol": "ASX:AOK",
+    "name": "AOK",
+    "volume": 68005422.0
+  }
+}
