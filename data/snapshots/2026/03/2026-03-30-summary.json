@@ -1,0 +1,24 @@
+{
+  "date": "2026-03-30",
+  "total_stocks": 2198,
+  "market_cap_total": 3601637966555.836,
+  "avg_change": -0.897696487846273,
+  "gainers": 558,
+  "losers": 1173,
+  "unchanged": 467,
+  "top_gainer": {
+    "symbol": "ASX:BIT",
+    "name": "BIT",
+    "change": 50.0
+  },
+  "top_loser": {
+    "symbol": "ASX:CHM",
+    "name": "CHM",
+    "change": -50.0
+  },
+  "most_volume": {
+    "symbol": "ASX:BNL",
+    "name": "BNL",
+    "volume": 141883515.0
+  }
+}
