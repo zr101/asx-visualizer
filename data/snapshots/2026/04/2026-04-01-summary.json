@@ -1,0 +1,24 @@
+{
+  "date": "2026-04-01",
+  "total_stocks": 2206,
+  "market_cap_total": 3589472632104.8545,
+  "avg_change": 2.0613525325313584,
+  "gainers": 1321,
+  "losers": 479,
+  "unchanged": 402,
+  "top_gainer": {
+    "symbol": "ASX:MOM",
+    "name": "MOM",
+    "change": 100.0
+  },
+  "top_loser": {
+    "symbol": "ASX:CHM",
+    "name": "CHM",
+    "change": -50.0
+  },
+  "most_volume": {
+    "symbol": "ASX:ARU",
+    "name": "ARU",
+    "volume": 97717294.0
+  }
+}
