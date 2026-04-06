@@ -1,0 +1,24 @@
+{
+  "date": "2026-04-06",
+  "total_stocks": 2196,
+  "market_cap_total": 3665300058872.9287,
+  "avg_change": -0.49970264257811986,
+  "gainers": 542,
+  "losers": 1220,
+  "unchanged": 431,
+  "top_gainer": {
+    "symbol": "ASX:KAI",
+    "name": "KAI",
+    "change": 1361.5384615384617
+  },
+  "top_loser": {
+    "symbol": "ASX:ETM",
+    "name": "ETM",
+    "change": -41.935483870967744
+  },
+  "most_volume": {
+    "symbol": "ASX:PDI",
+    "name": "PDI",
+    "volume": 73258271.0
+  }
+}
