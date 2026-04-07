@@ -1,0 +1,24 @@
+{
+  "date": "2026-04-07",
+  "total_stocks": 2199,
+  "market_cap_total": 3671741681690.2793,
+  "avg_change": 1.0994712178956327,
+  "gainers": 1087,
+  "losers": 656,
+  "unchanged": 455,
+  "top_gainer": {
+    "symbol": "ASX:KAI",
+    "name": "KAI",
+    "change": 1361.5384615384617
+  },
+  "top_loser": {
+    "symbol": "ASX:ATX",
+    "name": "ATX",
+    "change": -37.5
+  },
+  "most_volume": {
+    "symbol": "ASX:EQR",
+    "name": "EQR",
+    "volume": 63597077.0
+  }
+}
