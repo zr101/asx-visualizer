@@ -1,0 +1,24 @@
+{
+  "date": "2026-04-09",
+  "total_stocks": 2198,
+  "market_cap_total": 3817628508706.444,
+  "avg_change": 0.4371132125427154,
+  "gainers": 702,
+  "losers": 1008,
+  "unchanged": 487,
+  "top_gainer": {
+    "symbol": "ASX:KAI",
+    "name": "KAI",
+    "change": 1361.5384615384617
+  },
+  "top_loser": {
+    "symbol": "ASX:MOM",
+    "name": "MOM",
+    "change": -50.0
+  },
+  "most_volume": {
+    "symbol": "ASX:RML",
+    "name": "RML",
+    "volume": 105626723.0
+  }
+}
