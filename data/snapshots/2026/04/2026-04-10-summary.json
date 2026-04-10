@@ -1,0 +1,24 @@
+{
+  "date": "2026-04-10",
+  "total_stocks": 2199,
+  "market_cap_total": 3822867826672.084,
+  "avg_change": 0.3582298400527535,
+  "gainers": 888,
+  "losers": 802,
+  "unchanged": 507,
+  "top_gainer": {
+    "symbol": "ASX:BIT",
+    "name": "BIT",
+    "change": 50.0
+  },
+  "top_loser": {
+    "symbol": "ASX:FHS",
+    "name": "FHS",
+    "change": -50.0
+  },
+  "most_volume": {
+    "symbol": "ASX:RML",
+    "name": "RML",
+    "volume": 87203343.0
+  }
+}
