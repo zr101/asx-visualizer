@@ -1,0 +1,24 @@
+{
+  "date": "2026-04-13",
+  "total_stocks": 2199,
+  "market_cap_total": 3818769181659.1157,
+  "avg_change": -0.8644592821859582,
+  "gainers": 479,
+  "losers": 1248,
+  "unchanged": 471,
+  "top_gainer": {
+    "symbol": "ASX:SRN",
+    "name": "SRN",
+    "change": 100.0
+  },
+  "top_loser": {
+    "symbol": "ASX:BUY",
+    "name": "BUY",
+    "change": -50.0
+  },
+  "most_volume": {
+    "symbol": "ASX:LSR",
+    "name": "LSR",
+    "volume": 45580923.0
+  }
+}
