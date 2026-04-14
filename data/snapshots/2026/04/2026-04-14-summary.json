@@ -1,0 +1,24 @@
+{
+  "date": "2026-04-14",
+  "total_stocks": 2197,
+  "market_cap_total": 3818748116937.661,
+  "avg_change": 1.0482426564506353,
+  "gainers": 1121,
+  "losers": 580,
+  "unchanged": 495,
+  "top_gainer": {
+    "symbol": "ASX:SRN",
+    "name": "SRN",
+    "change": 100.0
+  },
+  "top_loser": {
+    "symbol": "ASX:CHRCB",
+    "name": "CHRCB",
+    "change": -33.33333333333333
+  },
+  "most_volume": {
+    "symbol": "ASX:DTI",
+    "name": "DTI",
+    "volume": 248288447.0
+  }
+}
