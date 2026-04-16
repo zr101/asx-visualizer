@@ -1,0 +1,24 @@
+{
+  "date": "2026-04-16",
+  "total_stocks": 2195,
+  "market_cap_total": 3810582067613.812,
+  "avg_change": 2.962471028899885,
+  "gainers": 936,
+  "losers": 752,
+  "unchanged": 507,
+  "top_gainer": {
+    "symbol": "ASX:BSR",
+    "name": "BSR",
+    "change": 4900.0
+  },
+  "top_loser": {
+    "symbol": "ASX:SPX",
+    "name": "SPX",
+    "change": -50.0
+  },
+  "most_volume": {
+    "symbol": "ASX:IMM",
+    "name": "IMM",
+    "volume": 265453940.0
+  }
+}
