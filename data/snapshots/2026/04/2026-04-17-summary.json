@@ -1,0 +1,24 @@
+{
+  "date": "2026-04-17",
+  "total_stocks": 2199,
+  "market_cap_total": 3815128524393.6006,
+  "avg_change": 0.6214242190838877,
+  "gainers": 859,
+  "losers": 841,
+  "unchanged": 499,
+  "top_gainer": {
+    "symbol": "ASX:NYM",
+    "name": "NYM",
+    "change": 130.43478260869566
+  },
+  "top_loser": {
+    "symbol": "ASX:ROG",
+    "name": "ROG",
+    "change": -50.0
+  },
+  "most_volume": {
+    "symbol": "ASX:IMM",
+    "name": "IMM",
+    "volume": 78473098.0
+  }
+}
