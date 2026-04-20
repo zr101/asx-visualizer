@@ -1,0 +1,24 @@
+{
+  "date": "2026-04-20",
+  "total_stocks": 2205,
+  "market_cap_total": 3825583818262.681,
+  "avg_change": 0.09648665596634608,
+  "gainers": 971,
+  "losers": 738,
+  "unchanged": 496,
+  "top_gainer": {
+    "symbol": "ASX:BUY",
+    "name": "BUY",
+    "change": 100.0
+  },
+  "top_loser": {
+    "symbol": "ASX:FHS",
+    "name": "FHS",
+    "change": -50.0
+  },
+  "most_volume": {
+    "symbol": "ASX:BNL",
+    "name": "BNL",
+    "volume": 81854880.0
+  }
+}
