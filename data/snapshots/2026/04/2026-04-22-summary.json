@@ -1,0 +1,24 @@
+{
+  "date": "2026-04-22",
+  "total_stocks": 2211,
+  "market_cap_total": 3811767726684.4517,
+  "avg_change": -0.19443674603388408,
+  "gainers": 625,
+  "losers": 1070,
+  "unchanged": 514,
+  "top_gainer": {
+    "symbol": "ASX:SPX",
+    "name": "SPX",
+    "change": 100.0
+  },
+  "top_loser": {
+    "symbol": "ASX:COH",
+    "name": "COH",
+    "change": -40.70501369536739
+  },
+  "most_volume": {
+    "symbol": "ASX:PDI",
+    "name": "PDI",
+    "volume": 239484165.0
+  }
+}
