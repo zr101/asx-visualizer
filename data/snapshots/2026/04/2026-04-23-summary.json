@@ -1,0 +1,24 @@
+{
+  "date": "2026-04-23",
+  "total_stocks": 2211,
+  "market_cap_total": 3793169546275.8555,
+  "avg_change": -0.05467476672611824,
+  "gainers": 667,
+  "losers": 1044,
+  "unchanged": 500,
+  "top_gainer": {
+    "symbol": "ASX:BUY",
+    "name": "BUY",
+    "change": 100.0
+  },
+  "top_loser": {
+    "symbol": "ASX:AOA",
+    "name": "AOA",
+    "change": -50.0
+  },
+  "most_volume": {
+    "symbol": "ASX:NSR",
+    "name": "NSR",
+    "volume": 129604947.0
+  }
+}
