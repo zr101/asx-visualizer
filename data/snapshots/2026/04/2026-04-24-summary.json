@@ -1,0 +1,24 @@
+{
+  "date": "2026-04-24",
+  "total_stocks": 2211,
+  "market_cap_total": 3784425092883.175,
+  "avg_change": 0.22196785565264648,
+  "gainers": 841,
+  "losers": 866,
+  "unchanged": 502,
+  "top_gainer": {
+    "symbol": "ASX:MOM",
+    "name": "MOM",
+    "change": 100.0
+  },
+  "top_loser": {
+    "symbol": "ASX:BUY",
+    "name": "BUY",
+    "change": -50.0
+  },
+  "most_volume": {
+    "symbol": "ASX:NSR",
+    "name": "NSR",
+    "volume": 129604947.0
+  }
+}
