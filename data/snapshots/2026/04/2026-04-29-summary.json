@@ -1,0 +1,24 @@
+{
+  "date": "2026-04-29",
+  "total_stocks": 2213,
+  "market_cap_total": 3723247221519.9185,
+  "avg_change": -0.1701139562915113,
+  "gainers": 735,
+  "losers": 945,
+  "unchanged": 531,
+  "top_gainer": {
+    "symbol": "ASX:14D",
+    "name": "14D",
+    "change": 133.33333333333337
+  },
+  "top_loser": {
+    "symbol": "ASX:CHM",
+    "name": "CHM",
+    "change": -99.0
+  },
+  "most_volume": {
+    "symbol": "ASX:14D",
+    "name": "14D",
+    "volume": 152629890.0
+  }
+}
