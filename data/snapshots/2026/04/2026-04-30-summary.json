@@ -1,0 +1,24 @@
+{
+  "date": "2026-04-30",
+  "total_stocks": 2256,
+  "market_cap_total": 3714621455685.8237,
+  "avg_change": -0.7582640922398173,
+  "gainers": 662,
+  "losers": 1117,
+  "unchanged": 473,
+  "top_gainer": {
+    "symbol": "ASX:RLC",
+    "name": "RLC",
+    "change": 50.0
+  },
+  "top_loser": {
+    "symbol": "ASX:SPX",
+    "name": "SPX",
+    "change": -50.0
+  },
+  "most_volume": {
+    "symbol": "ASX:14D",
+    "name": "14D",
+    "volume": 141745809.0
+  }
+}
