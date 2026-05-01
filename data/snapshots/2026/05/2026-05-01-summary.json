@@ -1,0 +1,24 @@
+{
+  "date": "2026-05-01",
+  "total_stocks": 2214,
+  "market_cap_total": 3715978159359.0044,
+  "avg_change": 0.6498806563730369,
+  "gainers": 1082,
+  "losers": 643,
+  "unchanged": 489,
+  "top_gainer": {
+    "symbol": "ASX:1TT",
+    "name": "1TT",
+    "change": 100.0
+  },
+  "top_loser": {
+    "symbol": "ASX:CHM",
+    "name": "CHM",
+    "change": -99.175
+  },
+  "most_volume": {
+    "symbol": "ASX:NSR",
+    "name": "NSR",
+    "volume": 129604947.0
+  }
+}
