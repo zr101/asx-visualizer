@@ -1,0 +1,24 @@
+{
+  "date": "2026-05-04",
+  "total_stocks": 2215,
+  "market_cap_total": 3732840822252.487,
+  "avg_change": -0.529016928231245,
+  "gainers": 694,
+  "losers": 1013,
+  "unchanged": 508,
+  "top_gainer": {
+    "symbol": "ASX:MTL",
+    "name": "MTL",
+    "change": 100.0
+  },
+  "top_loser": {
+    "symbol": "ASX:HE8",
+    "name": "HE8",
+    "change": -50.0
+  },
+  "most_volume": {
+    "symbol": "ASX:NSR",
+    "name": "NSR",
+    "volume": 129604947.0
+  }
+}
