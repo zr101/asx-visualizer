@@ -1,0 +1,24 @@
+{
+  "date": "2026-05-05",
+  "total_stocks": 2212,
+  "market_cap_total": 3715780705262.8564,
+  "avg_change": -0.6501476945163291,
+  "gainers": 623,
+  "losers": 1087,
+  "unchanged": 502,
+  "top_gainer": {
+    "symbol": "ASX:KEY",
+    "name": "KEY",
+    "change": 57.69230769230768
+  },
+  "top_loser": {
+    "symbol": "ASX:FHS",
+    "name": "FHS",
+    "change": -50.0
+  },
+  "most_volume": {
+    "symbol": "ASX:SOP",
+    "name": "SOP",
+    "volume": 65975006.0
+  }
+}
