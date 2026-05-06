@@ -1,0 +1,24 @@
+{
+  "date": "2026-05-06",
+  "total_stocks": 2213,
+  "market_cap_total": 3716879356302.851,
+  "avg_change": 0.5232104645542776,
+  "gainers": 991,
+  "losers": 759,
+  "unchanged": 462,
+  "top_gainer": {
+    "symbol": "ASX:AOA",
+    "name": "AOA",
+    "change": 100.0
+  },
+  "top_loser": {
+    "symbol": "ASX:MTL",
+    "name": "MTL",
+    "change": -50.0
+  },
+  "most_volume": {
+    "symbol": "ASX:CRS",
+    "name": "CRS",
+    "volume": 69906154.0
+  }
+}
