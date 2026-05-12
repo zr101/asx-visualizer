@@ -1,0 +1,24 @@
+{
+  "date": "2026-05-12",
+  "total_stocks": 2213,
+  "market_cap_total": 3865183697746.017,
+  "avg_change": 0.012778748266206967,
+  "gainers": 728,
+  "losers": 1005,
+  "unchanged": 479,
+  "top_gainer": {
+    "symbol": "ASX:ROG",
+    "name": "ROG",
+    "change": 100.0
+  },
+  "top_loser": {
+    "symbol": "ASX:SPX",
+    "name": "SPX",
+    "change": -50.0
+  },
+  "most_volume": {
+    "symbol": "ASX:FCT",
+    "name": "FCT",
+    "volume": 74524395.0
+  }
+}
