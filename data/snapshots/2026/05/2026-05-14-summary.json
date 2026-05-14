@@ -1,0 +1,24 @@
+{
+  "date": "2026-05-14",
+  "total_stocks": 2214,
+  "market_cap_total": 3842147182063.1064,
+  "avg_change": -0.20256673584948234,
+  "gainers": 741,
+  "losers": 969,
+  "unchanged": 503,
+  "top_gainer": {
+    "symbol": "ASX:WEL",
+    "name": "WEL",
+    "change": 100.0
+  },
+  "top_loser": {
+    "symbol": "ASX:SPG",
+    "name": "SPG",
+    "change": -59.42028985507246
+  },
+  "most_volume": {
+    "symbol": "ASX:LSR",
+    "name": "LSR",
+    "volume": 82412509.0
+  }
+}
