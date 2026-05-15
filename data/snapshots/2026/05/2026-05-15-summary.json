@@ -1,0 +1,24 @@
+{
+  "date": "2026-05-15",
+  "total_stocks": 2214,
+  "market_cap_total": 3735180186807.3076,
+  "avg_change": -0.43285659932327286,
+  "gainers": 790,
+  "losers": 920,
+  "unchanged": 503,
+  "top_gainer": {
+    "symbol": "ASX:EXL",
+    "name": "EXL",
+    "change": 114.28571428571428
+  },
+  "top_loser": {
+    "symbol": "ASX:ROG",
+    "name": "ROG",
+    "change": -50.0
+  },
+  "most_volume": {
+    "symbol": "ASX:EXL",
+    "name": "EXL",
+    "volume": 103705192.0
+  }
+}
