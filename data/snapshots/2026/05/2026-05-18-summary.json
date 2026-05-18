@@ -1,0 +1,24 @@
+{
+  "date": "2026-05-18",
+  "total_stocks": 2212,
+  "market_cap_total": 3706336511198.807,
+  "avg_change": -1.721655020617596,
+  "gainers": 391,
+  "losers": 1399,
+  "unchanged": 420,
+  "top_gainer": {
+    "symbol": "ASX:ROG",
+    "name": "ROG",
+    "change": 100.0
+  },
+  "top_loser": {
+    "symbol": "ASX:TUA",
+    "name": "TUA",
+    "change": -62.78688524590164
+  },
+  "most_volume": {
+    "symbol": "ASX:HLX",
+    "name": "HLX",
+    "volume": 74771993.0
+  }
+}
