@@ -1,0 +1,24 @@
+{
+  "date": "2026-05-19",
+  "total_stocks": 2216,
+  "market_cap_total": 3662243374333.0127,
+  "avg_change": -0.16650782743743697,
+  "gainers": 946,
+  "losers": 760,
+  "unchanged": 508,
+  "top_gainer": {
+    "symbol": "ASX:CCE",
+    "name": "CCE",
+    "change": 77.96610169491525
+  },
+  "top_loser": {
+    "symbol": "ASX:WAK",
+    "name": "WAK",
+    "change": -56.00000000000001
+  },
+  "most_volume": {
+    "symbol": "ASX:NTU",
+    "name": "NTU",
+    "volume": 150097120.0
+  }
+}
