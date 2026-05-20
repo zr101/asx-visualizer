@@ -1,0 +1,24 @@
+{
+  "date": "2026-05-20",
+  "total_stocks": 2216,
+  "market_cap_total": 3684149997050.007,
+  "avg_change": -1.2282555066364644,
+  "gainers": 481,
+  "losers": 1248,
+  "unchanged": 487,
+  "top_gainer": {
+    "symbol": "ASX:WEL",
+    "name": "WEL",
+    "change": 100.0
+  },
+  "top_loser": {
+    "symbol": "ASX:NAE",
+    "name": "NAE",
+    "change": -50.0
+  },
+  "most_volume": {
+    "symbol": "ASX:NTU",
+    "name": "NTU",
+    "volume": 144676607.0
+  }
+}
