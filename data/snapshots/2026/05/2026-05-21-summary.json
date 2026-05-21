@@ -1,0 +1,24 @@
+{
+  "date": "2026-05-21",
+  "total_stocks": 2217,
+  "market_cap_total": 3652795733248.714,
+  "avg_change": 0.7530996859363108,
+  "gainers": 1162,
+  "losers": 551,
+  "unchanged": 502,
+  "top_gainer": {
+    "symbol": "ASX:HE8",
+    "name": "HE8",
+    "change": 100.0
+  },
+  "top_loser": {
+    "symbol": "ASX:SPX",
+    "name": "SPX",
+    "change": -50.0
+  },
+  "most_volume": {
+    "symbol": "ASX:ADO",
+    "name": "ADO",
+    "volume": 200018963.0
+  }
+}
