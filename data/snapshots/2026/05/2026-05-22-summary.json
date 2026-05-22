@@ -1,0 +1,24 @@
+{
+  "date": "2026-05-22",
+  "total_stocks": 2214,
+  "market_cap_total": 3698165854626.1226,
+  "avg_change": 0.6199170473773954,
+  "gainers": 1043,
+  "losers": 671,
+  "unchanged": 500,
+  "top_gainer": {
+    "symbol": "ASX:NAE",
+    "name": "NAE",
+    "change": 100.0
+  },
+  "top_loser": {
+    "symbol": "ASX:ERA",
+    "name": "ERA",
+    "change": -33.33333333333333
+  },
+  "most_volume": {
+    "symbol": "ASX:EVG",
+    "name": "EVG",
+    "volume": 123204504.0
+  }
+}
