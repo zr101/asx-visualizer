@@ -1,0 +1,24 @@
+{
+  "date": "2026-05-25",
+  "total_stocks": 2219,
+  "market_cap_total": 3713348516475.3267,
+  "avg_change": 0.2534325406942614,
+  "gainers": 1009,
+  "losers": 708,
+  "unchanged": 502,
+  "top_gainer": {
+    "symbol": "ASX:BP8",
+    "name": "BP8",
+    "change": 100.0
+  },
+  "top_loser": {
+    "symbol": "ASX:ROG",
+    "name": "ROG",
+    "change": -50.0
+  },
+  "most_volume": {
+    "symbol": "ASX:ADO",
+    "name": "ADO",
+    "volume": 115907100.0
+  }
+}
