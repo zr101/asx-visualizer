@@ -1,0 +1,24 @@
+{
+  "date": "2026-05-28",
+  "total_stocks": 2225,
+  "market_cap_total": 3748125380927.3647,
+  "avg_change": -0.7756649579064371,
+  "gainers": 556,
+  "losers": 1181,
+  "unchanged": 488,
+  "top_gainer": {
+    "symbol": "ASX:RAN",
+    "name": "RAN",
+    "change": 100.0
+  },
+  "top_loser": {
+    "symbol": "ASX:WEL",
+    "name": "WEL",
+    "change": -50.0
+  },
+  "most_volume": {
+    "symbol": "ASX:IVZ",
+    "name": "IVZ",
+    "volume": 141610245.0
+  }
+}
