@@ -1,0 +1,24 @@
+{
+  "date": "2026-05-29",
+  "total_stocks": 2224,
+  "market_cap_total": 3708910444495.5073,
+  "avg_change": 1.3290181954274496,
+  "gainers": 1229,
+  "losers": 504,
+  "unchanged": 490,
+  "top_gainer": {
+    "symbol": "ASX:RAN",
+    "name": "RAN",
+    "change": 100.0
+  },
+  "top_loser": {
+    "symbol": "ASX:WEL",
+    "name": "WEL",
+    "change": -50.0
+  },
+  "most_volume": {
+    "symbol": "ASX:PLS",
+    "name": "PLS",
+    "volume": 401573040.0
+  }
+}
