@@ -1,0 +1,24 @@
+{
+  "date": "2026-06-01",
+  "total_stocks": 2227,
+  "market_cap_total": 3708581880983.2896,
+  "avg_change": 0.03542970458648256,
+  "gainers": 825,
+  "losers": 906,
+  "unchanged": 490,
+  "top_gainer": {
+    "symbol": "ASX:RAN",
+    "name": "RAN",
+    "change": 100.0
+  },
+  "top_loser": {
+    "symbol": "ASX:FHS",
+    "name": "FHS",
+    "change": -50.0
+  },
+  "most_volume": {
+    "symbol": "ASX:ARU",
+    "name": "ARU",
+    "volume": 67598784.0
+  }
+}
