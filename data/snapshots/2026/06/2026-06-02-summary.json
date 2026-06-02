@@ -1,0 +1,24 @@
+{
+  "date": "2026-06-02",
+  "total_stocks": 2227,
+  "market_cap_total": 3713307094681.962,
+  "avg_change": -0.15282934654313518,
+  "gainers": 769,
+  "losers": 961,
+  "unchanged": 497,
+  "top_gainer": {
+    "symbol": "ASX:EWC",
+    "name": "EWC",
+    "change": 102.77777777777779
+  },
+  "top_loser": {
+    "symbol": "ASX:FAR",
+    "name": "FAR",
+    "change": -53.6
+  },
+  "most_volume": {
+    "symbol": "ASX:RR1",
+    "name": "RR1",
+    "volume": 95619882.0
+  }
+}
