@@ -1,0 +1,24 @@
+{
+  "date": "2026-06-03",
+  "total_stocks": 2227,
+  "market_cap_total": 3730641914372.1226,
+  "avg_change": 0.10759618409135864,
+  "gainers": 839,
+  "losers": 902,
+  "unchanged": 484,
+  "top_gainer": {
+    "symbol": "ASX:DXN",
+    "name": "DXN",
+    "change": 590.4761904761904
+  },
+  "top_loser": {
+    "symbol": "ASX:OPT",
+    "name": "OPT",
+    "change": -97.33333333333333
+  },
+  "most_volume": {
+    "symbol": "ASX:OPT",
+    "name": "OPT",
+    "volume": 525096200.0
+  }
+}
