@@ -1,0 +1,24 @@
+{
+  "date": "2026-06-04",
+  "total_stocks": 2226,
+  "market_cap_total": 3724107376904.973,
+  "avg_change": -0.49174959372898336,
+  "gainers": 642,
+  "losers": 1096,
+  "unchanged": 486,
+  "top_gainer": {
+    "symbol": "ASX:TEG",
+    "name": "TEG",
+    "change": 100.0
+  },
+  "top_loser": {
+    "symbol": "ASX:WEL",
+    "name": "WEL",
+    "change": -50.0
+  },
+  "most_volume": {
+    "symbol": "ASX:OPT",
+    "name": "OPT",
+    "volume": 254014622.0
+  }
+}
