@@ -1,0 +1,24 @@
+{
+  "date": "2026-06-08",
+  "total_stocks": 2223,
+  "market_cap_total": 3647203308112.292,
+  "avg_change": -0.17203569407843108,
+  "gainers": 751,
+  "losers": 946,
+  "unchanged": 525,
+  "top_gainer": {
+    "symbol": "ASX:ROG",
+    "name": "ROG",
+    "change": 100.0
+  },
+  "top_loser": {
+    "symbol": "ASX:ADR",
+    "name": "ADR",
+    "change": -33.33333333333333
+  },
+  "most_volume": {
+    "symbol": "ASX:OPT",
+    "name": "OPT",
+    "volume": 128634120.0
+  }
+}
