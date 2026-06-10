@@ -1,0 +1,24 @@
+{
+  "date": "2026-06-10",
+  "total_stocks": 2220,
+  "market_cap_total": 3634204532875.4614,
+  "avg_change": -1.547118839223515,
+  "gainers": 658,
+  "losers": 1125,
+  "unchanged": 435,
+  "top_gainer": {
+    "symbol": "ASX:SUH",
+    "name": "SUH",
+    "change": 54.16666666666665
+  },
+  "top_loser": {
+    "symbol": "ASX:SPX",
+    "name": "SPX",
+    "change": -82.3529411764706
+  },
+  "most_volume": {
+    "symbol": "ASX:OPT",
+    "name": "OPT",
+    "volume": 101764670.0
+  }
+}
