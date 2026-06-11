@@ -1,0 +1,24 @@
+{
+  "date": "2026-06-11",
+  "total_stocks": 2218,
+  "market_cap_total": 3628728458129.249,
+  "avg_change": -0.2810119380902798,
+  "gainers": 721,
+  "losers": 995,
+  "unchanged": 500,
+  "top_gainer": {
+    "symbol": "ASX:TEG",
+    "name": "TEG",
+    "change": 100.0
+  },
+  "top_loser": {
+    "symbol": "ASX:ENN",
+    "name": "ENN",
+    "change": -94.8780487804878
+  },
+  "most_volume": {
+    "symbol": "ASX:14D",
+    "name": "14D",
+    "volume": 161695459.0
+  }
+}
