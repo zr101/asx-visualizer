@@ -1,0 +1,24 @@
+{
+  "date": "2026-06-12",
+  "total_stocks": 2216,
+  "market_cap_total": 3637477294319.0376,
+  "avg_change": 1.1942360723016752,
+  "gainers": 1250,
+  "losers": 501,
+  "unchanged": 464,
+  "top_gainer": {
+    "symbol": "ASX:AOK",
+    "name": "AOK",
+    "change": 50.0
+  },
+  "top_loser": {
+    "symbol": "ASX:KSN",
+    "name": "KSN",
+    "change": -54.02298850574713
+  },
+  "most_volume": {
+    "symbol": "ASX:OPT",
+    "name": "OPT",
+    "volume": 76921571.0
+  }
+}
