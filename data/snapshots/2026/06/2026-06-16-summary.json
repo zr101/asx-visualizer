@@ -1,0 +1,24 @@
+{
+  "date": "2026-06-16",
+  "total_stocks": 2218,
+  "market_cap_total": 3809800288672.628,
+  "avg_change": -0.007453140405348409,
+  "gainers": 827,
+  "losers": 907,
+  "unchanged": 484,
+  "top_gainer": {
+    "symbol": "ASX:BP8",
+    "name": "BP8",
+    "change": 100.0
+  },
+  "top_loser": {
+    "symbol": "ASX:KSN",
+    "name": "KSN",
+    "change": -54.02298850574713
+  },
+  "most_volume": {
+    "symbol": "ASX:OPT",
+    "name": "OPT",
+    "volume": 65811497.0
+  }
+}
