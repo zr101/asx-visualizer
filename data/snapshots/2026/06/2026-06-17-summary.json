@@ -1,0 +1,24 @@
+{
+  "date": "2026-06-17",
+  "total_stocks": 2218,
+  "market_cap_total": 3816166148127.2,
+  "avg_change": 0.5974175602384044,
+  "gainers": 1065,
+  "losers": 724,
+  "unchanged": 429,
+  "top_gainer": {
+    "symbol": "ASX:NOR",
+    "name": "NOR",
+    "change": 100.0
+  },
+  "top_loser": {
+    "symbol": "ASX:KSN",
+    "name": "KSN",
+    "change": -54.02298850574713
+  },
+  "most_volume": {
+    "symbol": "ASX:AGE",
+    "name": "AGE",
+    "volume": 57341158.0
+  }
+}
