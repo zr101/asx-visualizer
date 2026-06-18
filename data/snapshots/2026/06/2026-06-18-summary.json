@@ -1,0 +1,24 @@
+{
+  "date": "2026-06-18",
+  "total_stocks": 2218,
+  "market_cap_total": 3823678949310.16,
+  "avg_change": -0.3543450598909427,
+  "gainers": 658,
+  "losers": 1071,
+  "unchanged": 488,
+  "top_gainer": {
+    "symbol": "ASX:BP8",
+    "name": "BP8",
+    "change": 100.0
+  },
+  "top_loser": {
+    "symbol": "ASX:AAU",
+    "name": "AAU",
+    "change": -45.454545454545446
+  },
+  "most_volume": {
+    "symbol": "ASX:AEE",
+    "name": "AEE",
+    "volume": 85563749.0
+  }
+}
