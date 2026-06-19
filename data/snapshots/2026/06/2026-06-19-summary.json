@@ -1,0 +1,24 @@
+{
+  "date": "2026-06-19",
+  "total_stocks": 2221,
+  "market_cap_total": 3795784996990.2915,
+  "avg_change": -0.4590017748852783,
+  "gainers": 669,
+  "losers": 1067,
+  "unchanged": 483,
+  "top_gainer": {
+    "symbol": "ASX:BP8",
+    "name": "BP8",
+    "change": 100.0
+  },
+  "top_loser": {
+    "symbol": "ASX:CYP",
+    "name": "CYP",
+    "change": -93.07692307692308
+  },
+  "most_volume": {
+    "symbol": "ASX:PDI",
+    "name": "PDI",
+    "volume": 202777098.0
+  }
+}
