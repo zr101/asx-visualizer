@@ -1,0 +1,24 @@
+{
+  "date": "2026-06-22",
+  "total_stocks": 2224,
+  "market_cap_total": 3767212356100.7183,
+  "avg_change": -0.5830051155156903,
+  "gainers": 803,
+  "losers": 930,
+  "unchanged": 490,
+  "top_gainer": {
+    "symbol": "ASX:NOR",
+    "name": "NOR",
+    "change": 130.7692307692308
+  },
+  "top_loser": {
+    "symbol": "ASX:PRM",
+    "name": "PRM",
+    "change": -50.0
+  },
+  "most_volume": {
+    "symbol": "ASX:AGE",
+    "name": "AGE",
+    "volume": 132985354.0
+  }
+}
