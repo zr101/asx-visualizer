@@ -1,0 +1,24 @@
+{
+  "date": "2026-06-23",
+  "total_stocks": 2222,
+  "market_cap_total": 3761553099171.1523,
+  "avg_change": -1.237778307854935,
+  "gainers": 564,
+  "losers": 1189,
+  "unchanged": 466,
+  "top_gainer": {
+    "symbol": "ASX:UM1",
+    "name": "UM1",
+    "change": 76.4705882352941
+  },
+  "top_loser": {
+    "symbol": "ASX:BP8",
+    "name": "BP8",
+    "change": -50.0
+  },
+  "most_volume": {
+    "symbol": "ASX:ALX",
+    "name": "ALX",
+    "volume": 60942958.0
+  }
+}
