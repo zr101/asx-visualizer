@@ -1,0 +1,24 @@
+{
+  "date": "2026-06-24",
+  "total_stocks": 2223,
+  "market_cap_total": 3743180280197.7876,
+  "avg_change": -0.4433212667690139,
+  "gainers": 855,
+  "losers": 880,
+  "unchanged": 485,
+  "top_gainer": {
+    "symbol": "ASX:BP8",
+    "name": "BP8",
+    "change": 100.0
+  },
+  "top_loser": {
+    "symbol": "ASX:NAE",
+    "name": "NAE",
+    "change": -50.0
+  },
+  "most_volume": {
+    "symbol": "ASX:AVE",
+    "name": "AVE",
+    "volume": 192473530.0
+  }
+}
