@@ -1,0 +1,24 @@
+{
+  "date": "2026-06-25",
+  "total_stocks": 2225,
+  "market_cap_total": 3743755462087.1025,
+  "avg_change": -1.0438341263690383,
+  "gainers": 763,
+  "losers": 1022,
+  "unchanged": 439,
+  "top_gainer": {
+    "symbol": "ASX:ODA",
+    "name": "ODA",
+    "change": 167.44186046511632
+  },
+  "top_loser": {
+    "symbol": "ASX:ADR",
+    "name": "ADR",
+    "change": -50.0
+  },
+  "most_volume": {
+    "symbol": "ASX:JDO",
+    "name": "JDO",
+    "volume": 98116749.0
+  }
+}
