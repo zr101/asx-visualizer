@@ -1,0 +1,24 @@
+{
+  "date": "2026-06-26",
+  "total_stocks": 2226,
+  "market_cap_total": 3722382678620.73,
+  "avg_change": -0.2111065262444264,
+  "gainers": 745,
+  "losers": 972,
+  "unchanged": 507,
+  "top_gainer": {
+    "symbol": "ASX:ADR",
+    "name": "ADR",
+    "change": 100.0
+  },
+  "top_loser": {
+    "symbol": "ASX:NAE",
+    "name": "NAE",
+    "change": -50.0
+  },
+  "most_volume": {
+    "symbol": "ASX:JDO",
+    "name": "JDO",
+    "volume": 64293147.0
+  }
+}
