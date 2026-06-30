@@ -1,0 +1,24 @@
+{
+  "date": "2026-06-30",
+  "total_stocks": 2227,
+  "market_cap_total": 3752077806484.1143,
+  "avg_change": 0.8191779264860288,
+  "gainers": 937,
+  "losers": 787,
+  "unchanged": 500,
+  "top_gainer": {
+    "symbol": "ASX:BMH",
+    "name": "BMH",
+    "change": 483.33333333333337
+  },
+  "top_loser": {
+    "symbol": "ASX:ACS",
+    "name": "ACS",
+    "change": -35.89743589743589
+  },
+  "most_volume": {
+    "symbol": "ASX:SKK",
+    "name": "SKK",
+    "volume": 54978470.0
+  }
+}
