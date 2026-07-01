@@ -1,0 +1,24 @@
+{
+  "date": "2026-07-01",
+  "total_stocks": 2230,
+  "market_cap_total": 3751957445037.7495,
+  "avg_change": 0.447799233125891,
+  "gainers": 759,
+  "losers": 993,
+  "unchanged": 473,
+  "top_gainer": {
+    "symbol": "ASX:BMH",
+    "name": "BMH",
+    "change": 483.33333333333337
+  },
+  "top_loser": {
+    "symbol": "ASX:IIQ",
+    "name": "IIQ",
+    "change": -46.78899082568808
+  },
+  "most_volume": {
+    "symbol": "ASX:AT4",
+    "name": "AT4",
+    "volume": 55893269.0
+  }
+}
