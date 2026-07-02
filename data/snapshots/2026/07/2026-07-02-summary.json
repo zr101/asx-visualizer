@@ -1,0 +1,24 @@
+{
+  "date": "2026-07-02",
+  "total_stocks": 2231,
+  "market_cap_total": 3731753006020.249,
+  "avg_change": 0.733718522319423,
+  "gainers": 901,
+  "losers": 837,
+  "unchanged": 488,
+  "top_gainer": {
+    "symbol": "ASX:FBR",
+    "name": "FBR",
+    "change": 100.0
+  },
+  "top_loser": {
+    "symbol": "ASX:AIX",
+    "name": "AIX",
+    "change": -96.13636363636364
+  },
+  "most_volume": {
+    "symbol": "ASX:S32",
+    "name": "S32",
+    "volume": 67659676.0
+  }
+}
