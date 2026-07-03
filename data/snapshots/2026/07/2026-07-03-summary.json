@@ -1,0 +1,24 @@
+{
+  "date": "2026-07-03",
+  "total_stocks": 2225,
+  "market_cap_total": 3732498862704.4473,
+  "avg_change": 2.7573243879027487,
+  "gainers": 1172,
+  "losers": 561,
+  "unchanged": 488,
+  "top_gainer": {
+    "symbol": "ASX:KMD",
+    "name": "KMD",
+    "change": 2333.333333333333
+  },
+  "top_loser": {
+    "symbol": "ASX:ACS",
+    "name": "ACS",
+    "change": -35.89743589743589
+  },
+  "most_volume": {
+    "symbol": "ASX:QPM",
+    "name": "QPM",
+    "volume": 55236225.0
+  }
+}
