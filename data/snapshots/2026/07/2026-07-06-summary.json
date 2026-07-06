@@ -1,0 +1,24 @@
+{
+  "date": "2026-07-06",
+  "total_stocks": 2223,
+  "market_cap_total": 3772383761161.658,
+  "avg_change": 0.15116084300375573,
+  "gainers": 859,
+  "losers": 834,
+  "unchanged": 530,
+  "top_gainer": {
+    "symbol": "ASX:ADR",
+    "name": "ADR",
+    "change": 100.0
+  },
+  "top_loser": {
+    "symbol": "ASX:HE8",
+    "name": "HE8",
+    "change": -50.0
+  },
+  "most_volume": {
+    "symbol": "ASX:NPM",
+    "name": "NPM",
+    "volume": 66511012.0
+  }
+}
