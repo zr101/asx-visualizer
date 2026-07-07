@@ -1,0 +1,24 @@
+{
+  "date": "2026-07-07",
+  "total_stocks": 2223,
+  "market_cap_total": 3772208005948.225,
+  "avg_change": -0.4189623476486275,
+  "gainers": 661,
+  "losers": 1035,
+  "unchanged": 526,
+  "top_gainer": {
+    "symbol": "ASX:RGT",
+    "name": "RGT",
+    "change": 105.71428571428567
+  },
+  "top_loser": {
+    "symbol": "ASX:HE8",
+    "name": "HE8",
+    "change": -50.0
+  },
+  "most_volume": {
+    "symbol": "ASX:QPM",
+    "name": "QPM",
+    "volume": 55236225.0
+  }
+}
