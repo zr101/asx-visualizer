@@ -1,0 +1,24 @@
+{
+  "date": "2026-07-08",
+  "total_stocks": 2220,
+  "market_cap_total": 3748981333713.6733,
+  "avg_change": -0.3933712791337187,
+  "gainers": 613,
+  "losers": 1098,
+  "unchanged": 509,
+  "top_gainer": {
+    "symbol": "ASX:ADR",
+    "name": "ADR",
+    "change": 100.0
+  },
+  "top_loser": {
+    "symbol": "ASX:ACS",
+    "name": "ACS",
+    "change": -35.89743589743589
+  },
+  "most_volume": {
+    "symbol": "ASX:NTU",
+    "name": "NTU",
+    "volume": 326335830.0
+  }
+}
