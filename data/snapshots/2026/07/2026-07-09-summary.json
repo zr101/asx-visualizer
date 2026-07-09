@@ -1,0 +1,24 @@
+{
+  "date": "2026-07-09",
+  "total_stocks": 2224,
+  "market_cap_total": 3717767947164.335,
+  "avg_change": -0.008554417689932044,
+  "gainers": 731,
+  "losers": 937,
+  "unchanged": 550,
+  "top_gainer": {
+    "symbol": "ASX:FHS",
+    "name": "FHS",
+    "change": 100.0
+  },
+  "top_loser": {
+    "symbol": "ASX:HE8",
+    "name": "HE8",
+    "change": -50.0
+  },
+  "most_volume": {
+    "symbol": "ASX:QUB",
+    "name": "QUB",
+    "volume": 123398396.0
+  }
+}
