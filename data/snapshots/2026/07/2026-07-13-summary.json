@@ -1,0 +1,24 @@
+{
+  "date": "2026-07-13",
+  "total_stocks": 2222,
+  "market_cap_total": 3746404494747.824,
+  "avg_change": 0.515487065690665,
+  "gainers": 654,
+  "losers": 1032,
+  "unchanged": 534,
+  "top_gainer": {
+    "symbol": "ASX:BRY",
+    "name": "BRY",
+    "change": 1900.0
+  },
+  "top_loser": {
+    "symbol": "ASX:RNX",
+    "name": "RNX",
+    "change": -33.33333333333333
+  },
+  "most_volume": {
+    "symbol": "ASX:QUB",
+    "name": "QUB",
+    "volume": 123398396.0
+  }
+}
