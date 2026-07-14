@@ -1,0 +1,24 @@
+{
+  "date": "2026-07-14",
+  "total_stocks": 2219,
+  "market_cap_total": 3744936394450.729,
+  "avg_change": 0.4178708635060029,
+  "gainers": 680,
+  "losers": 997,
+  "unchanged": 542,
+  "top_gainer": {
+    "symbol": "ASX:BRY",
+    "name": "BRY",
+    "change": 1900.0
+  },
+  "top_loser": {
+    "symbol": "ASX:CCO",
+    "name": "CCO",
+    "change": -33.33333333333333
+  },
+  "most_volume": {
+    "symbol": "ASX:QUB",
+    "name": "QUB",
+    "volume": 123398396.0
+  }
+}
