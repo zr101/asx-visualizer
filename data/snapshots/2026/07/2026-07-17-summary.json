@@ -1,0 +1,24 @@
+{
+  "date": "2026-07-17",
+  "total_stocks": 2214,
+  "market_cap_total": 3749320217241.222,
+  "avg_change": -0.265623298664298,
+  "gainers": 516,
+  "losers": 1179,
+  "unchanged": 517,
+  "top_gainer": {
+    "symbol": "ASX:BRY",
+    "name": "BRY",
+    "change": 1900.0
+  },
+  "top_loser": {
+    "symbol": "ASX:HE8",
+    "name": "HE8",
+    "change": -50.0
+  },
+  "most_volume": {
+    "symbol": "ASX:QUB",
+    "name": "QUB",
+    "volume": 123398396.0
+  }
+}
