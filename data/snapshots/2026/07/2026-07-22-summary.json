@@ -1,0 +1,24 @@
+{
+  "date": "2026-07-22",
+  "total_stocks": 2214,
+  "market_cap_total": 3714501239405.181,
+  "avg_change": 1.2100536382500398,
+  "gainers": 1067,
+  "losers": 667,
+  "unchanged": 478,
+  "top_gainer": {
+    "symbol": "ASX:BP8",
+    "name": "BP8",
+    "change": 100.0
+  },
+  "top_loser": {
+    "symbol": "ASX:HE8",
+    "name": "HE8",
+    "change": -50.0
+  },
+  "most_volume": {
+    "symbol": "ASX:NAE",
+    "name": "NAE",
+    "volume": 50976884.0
+  }
+}
