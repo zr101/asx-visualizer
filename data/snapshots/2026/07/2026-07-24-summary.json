@@ -1,0 +1,24 @@
+{
+  "date": "2026-07-24",
+  "total_stocks": 2218,
+  "market_cap_total": 3730959911614.1113,
+  "avg_change": -0.8129478868464045,
+  "gainers": 489,
+  "losers": 1231,
+  "unchanged": 496,
+  "top_gainer": {
+    "symbol": "ASX:RNX",
+    "name": "RNX",
+    "change": 50.0
+  },
+  "top_loser": {
+    "symbol": "ASX:ACS",
+    "name": "ACS",
+    "change": -52.0
+  },
+  "most_volume": {
+    "symbol": "ASX:TLS",
+    "name": "TLS",
+    "volume": 48928306.0
+  }
+}
