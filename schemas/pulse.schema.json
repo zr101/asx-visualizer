@@ -1,0 +1,714 @@
+{
+  "$defs": {
+    "BreadthReading": {
+      "additionalProperties": false,
+      "description": "Breadth for one Session, over its Stocks universe.",
+      "properties": {
+        "advance_decline_net": {
+          "type": "integer"
+        },
+        "advance_decline_ratio": {
+          "anyOf": [
+            {
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "advancers": {
+          "type": "integer"
+        },
+        "advancing_pct": {
+          "anyOf": [
+            {
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "decliners": {
+          "type": "integer"
+        },
+        "down_volume": {
+          "type": "number"
+        },
+        "mean_change": {
+          "anyOf": [
+            {
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "median_change": {
+          "anyOf": [
+            {
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "net_new_highs": {
+          "type": "integer"
+        },
+        "new_highs_52w": {
+          "type": "integer"
+        },
+        "new_lows_52w": {
+          "type": "integer"
+        },
+        "pct_above_sma200": {
+          "anyOf": [
+            {
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "pct_above_sma50": {
+          "anyOf": [
+            {
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "traded_pct": {
+          "anyOf": [
+            {
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "trin": {
+          "anyOf": [
+            {
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "unchanged": {
+          "type": "integer"
+        },
+        "universe_size": {
+          "type": "integer"
+        },
+        "untraded": {
+          "type": "integer"
+        },
+        "up_down_volume_ratio": {
+          "anyOf": [
+            {
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "up_volume": {
+          "type": "number"
+        }
+      },
+      "required": [
+        "advancers",
+        "decliners",
+        "unchanged",
+        "untraded",
+        "advance_decline_ratio",
+        "advance_decline_net",
+        "advancing_pct",
+        "traded_pct",
+        "up_volume",
+        "down_volume",
+        "up_down_volume_ratio",
+        "trin",
+        "pct_above_sma50",
+        "pct_above_sma200",
+        "new_highs_52w",
+        "new_lows_52w",
+        "net_new_highs",
+        "median_change",
+        "mean_change",
+        "universe_size"
+      ],
+      "title": "BreadthReading",
+      "type": "object"
+    },
+    "IndexQuote": {
+      "additionalProperties": false,
+      "properties": {
+        "Perf_1M": {
+          "anyOf": [
+            {
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "Perf_3M": {
+          "anyOf": [
+            {
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "Perf_6M": {
+          "anyOf": [
+            {
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "Perf_W": {
+          "anyOf": [
+            {
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "Perf_Y": {
+          "anyOf": [
+            {
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "Perf_YTD": {
+          "anyOf": [
+            {
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "change": {
+          "anyOf": [
+            {
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "close": {
+          "anyOf": [
+            {
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "description": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "symbol": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "symbol",
+        "description",
+        "close",
+        "change",
+        "Perf_W",
+        "Perf_1M",
+        "Perf_3M",
+        "Perf_6M",
+        "Perf_YTD",
+        "Perf_Y"
+      ],
+      "title": "IndexQuote",
+      "type": "object"
+    },
+    "Mover": {
+      "additionalProperties": false,
+      "properties": {
+        "change": {
+          "anyOf": [
+            {
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "close": {
+          "anyOf": [
+            {
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "description": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "market_cap_basic": {
+          "anyOf": [
+            {
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "name": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "relative_volume_10d_calc": {
+          "anyOf": [
+            {
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "sector": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "symbol": {
+          "type": "string"
+        },
+        "turnover": {
+          "anyOf": [
+            {
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "volume": {
+          "anyOf": [
+            {
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        }
+      },
+      "required": [
+        "symbol",
+        "name",
+        "description",
+        "sector",
+        "close",
+        "change",
+        "volume",
+        "turnover",
+        "relative_volume_10d_calc",
+        "market_cap_basic"
+      ],
+      "title": "Mover",
+      "type": "object"
+    },
+    "SectorRow": {
+      "additionalProperties": false,
+      "description": "One sector's aggregates for a Session.\n\n`traded_count` is the denominator behind `advancing_pct`, stated rather than\nimplied - the two Readings that report participation used to disagree\nbecause one counted untraded listings and the other did not.",
+      "properties": {
+        "advancers": {
+          "type": "integer"
+        },
+        "advancing_pct": {
+          "anyOf": [
+            {
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "cap_weighted_1d": {
+          "anyOf": [
+            {
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null
+        },
+        "cap_weighted_1m": {
+          "anyOf": [
+            {
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null
+        },
+        "cap_weighted_1w": {
+          "anyOf": [
+            {
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null
+        },
+        "cap_weighted_1y": {
+          "anyOf": [
+            {
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null
+        },
+        "cap_weighted_3m": {
+          "anyOf": [
+            {
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null
+        },
+        "cap_weighted_6m": {
+          "anyOf": [
+            {
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null
+        },
+        "cap_weighted_ytd": {
+          "anyOf": [
+            {
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null
+        },
+        "count": {
+          "type": "integer"
+        },
+        "decliners": {
+          "type": "integer"
+        },
+        "equal_weighted_1d": {
+          "anyOf": [
+            {
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null
+        },
+        "equal_weighted_1m": {
+          "anyOf": [
+            {
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null
+        },
+        "equal_weighted_1w": {
+          "anyOf": [
+            {
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null
+        },
+        "equal_weighted_1y": {
+          "anyOf": [
+            {
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null
+        },
+        "equal_weighted_3m": {
+          "anyOf": [
+            {
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null
+        },
+        "equal_weighted_6m": {
+          "anyOf": [
+            {
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null
+        },
+        "equal_weighted_ytd": {
+          "anyOf": [
+            {
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null
+        },
+        "market_cap": {
+          "type": "number"
+        },
+        "market_cap_weight": {
+          "anyOf": [
+            {
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "pct_above_sma200": {
+          "anyOf": [
+            {
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "sector": {
+          "type": "string"
+        },
+        "traded_count": {
+          "type": "integer"
+        },
+        "turnover": {
+          "type": "number"
+        }
+      },
+      "required": [
+        "sector",
+        "count",
+        "traded_count",
+        "market_cap",
+        "market_cap_weight",
+        "advancers",
+        "decliners",
+        "advancing_pct",
+        "pct_above_sma200",
+        "turnover"
+      ],
+      "title": "SectorRow",
+      "type": "object"
+    },
+    "UniverseCounts": {
+      "additionalProperties": false,
+      "properties": {
+        "common_stocks": {
+          "type": "integer"
+        },
+        "funds_and_etfs": {
+          "type": "integer"
+        },
+        "liquid_stocks": {
+          "type": "integer"
+        },
+        "other": {
+          "type": "integer"
+        },
+        "total_listings": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "total_listings",
+        "common_stocks",
+        "funds_and_etfs",
+        "other",
+        "liquid_stocks"
+      ],
+      "title": "UniverseCounts",
+      "type": "object"
+    }
+  },
+  "additionalProperties": false,
+  "properties": {
+    "breadth": {
+      "$ref": "#/$defs/BreadthReading"
+    },
+    "date": {
+      "type": "string"
+    },
+    "gainers": {
+      "items": {
+        "$ref": "#/$defs/Mover"
+      },
+      "type": "array"
+    },
+    "indices": {
+      "items": {
+        "$ref": "#/$defs/IndexQuote"
+      },
+      "type": "array"
+    },
+    "losers": {
+      "items": {
+        "$ref": "#/$defs/Mover"
+      },
+      "type": "array"
+    },
+    "most_active": {
+      "items": {
+        "$ref": "#/$defs/Mover"
+      },
+      "type": "array"
+    },
+    "previous_date": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "sectors": {
+      "items": {
+        "$ref": "#/$defs/SectorRow"
+      },
+      "type": "array"
+    },
+    "signal_counts": {
+      "additionalProperties": {
+        "type": "integer"
+      },
+      "type": "object"
+    },
+    "universe": {
+      "$ref": "#/$defs/UniverseCounts"
+    },
+    "unusual_volume": {
+      "items": {
+        "$ref": "#/$defs/Mover"
+      },
+      "type": "array"
+    }
+  },
+  "required": [
+    "date",
+    "previous_date",
+    "breadth",
+    "universe",
+    "indices",
+    "sectors",
+    "gainers",
+    "losers",
+    "most_active",
+    "unusual_volume",
+    "signal_counts"
+  ],
+  "title": "PulseFile",
+  "type": "object"
+}

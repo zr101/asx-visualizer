@@ -1,0 +1,77 @@
+{
+  "$defs": {
+    "UniverseCounts": {
+      "additionalProperties": false,
+      "properties": {
+        "common_stocks": {
+          "type": "integer"
+        },
+        "funds_and_etfs": {
+          "type": "integer"
+        },
+        "liquid_stocks": {
+          "type": "integer"
+        },
+        "other": {
+          "type": "integer"
+        },
+        "total_listings": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "total_listings",
+        "common_stocks",
+        "funds_and_etfs",
+        "other",
+        "liquid_stocks"
+      ],
+      "title": "UniverseCounts",
+      "type": "object"
+    }
+  },
+  "additionalProperties": false,
+  "properties": {
+    "files": {
+      "items": {
+        "type": "string"
+      },
+      "type": "array"
+    },
+    "latest_date": {
+      "type": "string"
+    },
+    "previous_date": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "session_count": {
+      "type": "integer"
+    },
+    "sessions": {
+      "items": {
+        "type": "string"
+      },
+      "type": "array"
+    },
+    "universe": {
+      "$ref": "#/$defs/UniverseCounts"
+    }
+  },
+  "required": [
+    "latest_date",
+    "previous_date",
+    "sessions",
+    "session_count",
+    "universe",
+    "files"
+  ],
+  "title": "ManifestFile",
+  "type": "object"
+}

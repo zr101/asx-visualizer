@@ -40,6 +40,9 @@
   /* Trading specific colors */
   --color-positive: var(--positive);
   --color-negative: var(--negative);
+  --color-chart-accent: var(--chart-accent);
+  --color-chart-grid: var(--chart-grid);
+  --color-chart-axis: var(--chart-axis);
   --radius-sm: calc(var(--radius) - 4px);
   --radius-md: calc(var(--radius) - 2px);
   --radius-lg: var(--radius);
@@ -75,8 +78,13 @@
   --chart-4: oklch(0.828 0.189 84.429);
   --chart-5: oklch(0.769 0.188 70.08);
   /* Trading specific colors - light mode */
-  --positive: oklch(0.55 0.15 160);  /* Green */
-  --negative: oklch(0.55 0.20 25);   /* Red */
+  /* Validated with dataviz validate_palette.js against a #ffffff surface:
+     lightness band, chroma floor, CVD separation (deutan dE 12.2), contrast. */
+  --positive: #00897b;
+  --negative: #d93a37;
+  --chart-accent: #2962ff;
+  --chart-grid: oklch(0.92 0.004 286);
+  --chart-axis: oklch(0.55 0.01 286);
   --sidebar: oklch(0.985 0 0);
   --sidebar-foreground: oklch(0.141 0.005 285.823);
   --sidebar-primary: oklch(0.21 0.006 285.885);
@@ -114,8 +122,12 @@
   --chart-4: oklch(0.70 0.15 80);   /* Yellow/orange */
   --chart-5: oklch(0.60 0.18 300);  /* Purple */
   /* Trading specific colors */
-  --positive: oklch(0.62 0.12 175);  /* #26a69a green */
-  --negative: oklch(0.60 0.20 25);   /* #ef5350 red */
+  /* Validated against the #131722 dark surface (deutan dE 11.6). */
+  --positive: #26a69a;
+  --negative: #ef5350;
+  --chart-accent: #2962ff;
+  --chart-grid: oklch(0.26 0.02 264);
+  --chart-axis: oklch(0.62 0.02 264);
   /* Sidebar - TradingView dark */
   --sidebar: oklch(0.13 0.02 264);
   --sidebar-foreground: oklch(0.93 0.01 264);

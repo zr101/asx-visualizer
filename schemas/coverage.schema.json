@@ -1,0 +1,108 @@
+{
+  "$defs": {
+    "ArchiveProvenance": {
+      "additionalProperties": false,
+      "properties": {
+        "distinct_tickers": {
+          "type": "integer"
+        },
+        "first_session": {
+          "type": "string"
+        },
+        "latest_session": {
+          "type": "string"
+        },
+        "sessions": {
+          "type": "integer"
+        },
+        "ticker_days": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "sessions",
+        "first_session",
+        "latest_session",
+        "ticker_days",
+        "distinct_tickers"
+      ],
+      "title": "ArchiveProvenance",
+      "type": "object"
+    },
+    "FactorCoverage": {
+      "additionalProperties": false,
+      "properties": {
+        "inputs": {
+          "additionalProperties": {
+            "type": "number"
+          },
+          "type": "object"
+        },
+        "scored": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "inputs",
+        "scored"
+      ],
+      "title": "FactorCoverage",
+      "type": "object"
+    },
+    "FieldCoverage": {
+      "additionalProperties": false,
+      "properties": {
+        "fields": {
+          "additionalProperties": {
+            "type": "number"
+          },
+          "type": "object"
+        },
+        "rows": {
+          "type": "integer"
+        },
+        "universe": {
+          "const": "common_stocks",
+          "type": "string"
+        }
+      },
+      "required": [
+        "universe",
+        "rows",
+        "fields"
+      ],
+      "title": "FieldCoverage",
+      "type": "object"
+    }
+  },
+  "additionalProperties": false,
+  "properties": {
+    "coverage": {
+      "$ref": "#/$defs/FieldCoverage"
+    },
+    "factor_coverage": {
+      "additionalProperties": {
+        "$ref": "#/$defs/FactorCoverage"
+      },
+      "type": "object"
+    },
+    "generated_from": {
+      "$ref": "#/$defs/ArchiveProvenance"
+    },
+    "tickers_complete": {
+      "type": "integer"
+    },
+    "tickers_with_gaps": {
+      "type": "integer"
+    }
+  },
+  "required": [
+    "generated_from",
+    "coverage",
+    "factor_coverage",
+    "tickers_with_gaps",
+    "tickers_complete"
+  ],
+  "title": "CoverageFile",
+  "type": "object"
+}

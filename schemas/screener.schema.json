@@ -1,0 +1,50 @@
+{
+  "additionalProperties": false,
+  "properties": {
+    "columns": {
+      "additionalProperties": {
+        "items": {
+          "anyOf": [
+            {
+              "type": "number"
+            },
+            {
+              "type": "integer"
+            },
+            {
+              "type": "string"
+            },
+            {
+              "type": "boolean"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "type": "array"
+      },
+      "type": "object"
+    },
+    "date": {
+      "type": "string"
+    },
+    "fields": {
+      "items": {
+        "type": "string"
+      },
+      "type": "array"
+    },
+    "n": {
+      "type": "integer"
+    }
+  },
+  "required": [
+    "n",
+    "fields",
+    "columns",
+    "date"
+  ],
+  "title": "ScreenerFile",
+  "type": "object"
+}

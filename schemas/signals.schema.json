@@ -1,0 +1,257 @@
+{
+  "$defs": {
+    "ListingRef": {
+      "additionalProperties": false,
+      "properties": {
+        "close": {
+          "anyOf": [
+            {
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "description": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "name": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "sector": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "symbol": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "symbol",
+        "name",
+        "description",
+        "sector",
+        "close"
+      ],
+      "title": "ListingRef",
+      "type": "object"
+    },
+    "SignalGroup": {
+      "additionalProperties": false,
+      "properties": {
+        "label": {
+          "type": "string"
+        },
+        "rows": {
+          "items": {
+            "$ref": "#/$defs/SignalRow"
+          },
+          "type": "array"
+        },
+        "total": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "label",
+        "total",
+        "rows"
+      ],
+      "title": "SignalGroup",
+      "type": "object"
+    },
+    "SignalRow": {
+      "additionalProperties": false,
+      "description": "A listing that fired a signal.\n\nDeliberately not a subclass of Mover: signal rows carry RSI but no\n`turnover`. The frontend declared exactly that inheritance and it\ntype-checked, because nothing verified the declaration against the payload.",
+      "properties": {
+        "RSI": {
+          "anyOf": [
+            {
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "change": {
+          "anyOf": [
+            {
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "close": {
+          "anyOf": [
+            {
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "description": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "market_cap_basic": {
+          "anyOf": [
+            {
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "name": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "relative_volume_10d_calc": {
+          "anyOf": [
+            {
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "sector": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "symbol": {
+          "type": "string"
+        },
+        "volume": {
+          "anyOf": [
+            {
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        }
+      },
+      "required": [
+        "symbol",
+        "name",
+        "description",
+        "sector",
+        "close",
+        "change",
+        "volume",
+        "relative_volume_10d_calc",
+        "RSI",
+        "market_cap_basic"
+      ],
+      "title": "SignalRow",
+      "type": "object"
+    },
+    "UniverseChanges": {
+      "additionalProperties": false,
+      "properties": {
+        "delistings": {
+          "items": {
+            "$ref": "#/$defs/ListingRef"
+          },
+          "type": "array"
+        },
+        "new_listings": {
+          "items": {
+            "$ref": "#/$defs/ListingRef"
+          },
+          "type": "array"
+        }
+      },
+      "required": [
+        "new_listings",
+        "delistings"
+      ],
+      "title": "UniverseChanges",
+      "type": "object"
+    }
+  },
+  "additionalProperties": false,
+  "properties": {
+    "counts": {
+      "additionalProperties": {
+        "type": "integer"
+      },
+      "type": "object"
+    },
+    "date": {
+      "type": "string"
+    },
+    "signals": {
+      "additionalProperties": {
+        "$ref": "#/$defs/SignalGroup"
+      },
+      "type": "object"
+    },
+    "universe_changes": {
+      "anyOf": [
+        {
+          "$ref": "#/$defs/UniverseChanges"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null
+    }
+  },
+  "required": [
+    "date",
+    "counts",
+    "signals"
+  ],
+  "title": "SignalsFile",
+  "type": "object"
+}

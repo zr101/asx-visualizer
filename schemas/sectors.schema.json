@@ -1,0 +1,477 @@
+{
+  "$defs": {
+    "Columnar": {
+      "additionalProperties": false,
+      "description": "Parallel arrays keyed by field name.\n\nUsed for the row-heavy payloads: with ~2,100 rows the repeated JSON keys of\nan array-of-objects would be more than half the file.",
+      "properties": {
+        "columns": {
+          "additionalProperties": {
+            "items": {
+              "anyOf": [
+                {
+                  "type": "number"
+                },
+                {
+                  "type": "integer"
+                },
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "boolean"
+                },
+                {
+                  "type": "null"
+                }
+              ]
+            },
+            "type": "array"
+          },
+          "type": "object"
+        },
+        "fields": {
+          "items": {
+            "type": "string"
+          },
+          "type": "array"
+        },
+        "n": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "n",
+        "fields",
+        "columns"
+      ],
+      "title": "Columnar",
+      "type": "object"
+    },
+    "RotationRow": {
+      "additionalProperties": false,
+      "description": "A sector's return in each window, with its rank in that window.\n\nThe ranks drive the shading in the rotation table and were previously\nundeclared on the frontend, reachable only through an index signature that\nalso made every typo compile.",
+      "properties": {
+        "1d": {
+          "anyOf": [
+            {
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null
+        },
+        "1d_rank": {
+          "anyOf": [
+            {
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null
+        },
+        "1m": {
+          "anyOf": [
+            {
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null
+        },
+        "1m_rank": {
+          "anyOf": [
+            {
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null
+        },
+        "1w": {
+          "anyOf": [
+            {
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null
+        },
+        "1w_rank": {
+          "anyOf": [
+            {
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null
+        },
+        "1y": {
+          "anyOf": [
+            {
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null
+        },
+        "1y_rank": {
+          "anyOf": [
+            {
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null
+        },
+        "3m": {
+          "anyOf": [
+            {
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null
+        },
+        "3m_rank": {
+          "anyOf": [
+            {
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null
+        },
+        "6m": {
+          "anyOf": [
+            {
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null
+        },
+        "6m_rank": {
+          "anyOf": [
+            {
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null
+        },
+        "count": {
+          "type": "integer"
+        },
+        "sector": {
+          "type": "string"
+        },
+        "ytd": {
+          "anyOf": [
+            {
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null
+        },
+        "ytd_rank": {
+          "anyOf": [
+            {
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null
+        }
+      },
+      "required": [
+        "sector",
+        "count"
+      ],
+      "title": "RotationRow",
+      "type": "object"
+    },
+    "SectorRow": {
+      "additionalProperties": false,
+      "description": "One sector's aggregates for a Session.\n\n`traded_count` is the denominator behind `advancing_pct`, stated rather than\nimplied - the two Readings that report participation used to disagree\nbecause one counted untraded listings and the other did not.",
+      "properties": {
+        "advancers": {
+          "type": "integer"
+        },
+        "advancing_pct": {
+          "anyOf": [
+            {
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "cap_weighted_1d": {
+          "anyOf": [
+            {
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null
+        },
+        "cap_weighted_1m": {
+          "anyOf": [
+            {
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null
+        },
+        "cap_weighted_1w": {
+          "anyOf": [
+            {
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null
+        },
+        "cap_weighted_1y": {
+          "anyOf": [
+            {
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null
+        },
+        "cap_weighted_3m": {
+          "anyOf": [
+            {
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null
+        },
+        "cap_weighted_6m": {
+          "anyOf": [
+            {
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null
+        },
+        "cap_weighted_ytd": {
+          "anyOf": [
+            {
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null
+        },
+        "count": {
+          "type": "integer"
+        },
+        "decliners": {
+          "type": "integer"
+        },
+        "equal_weighted_1d": {
+          "anyOf": [
+            {
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null
+        },
+        "equal_weighted_1m": {
+          "anyOf": [
+            {
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null
+        },
+        "equal_weighted_1w": {
+          "anyOf": [
+            {
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null
+        },
+        "equal_weighted_1y": {
+          "anyOf": [
+            {
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null
+        },
+        "equal_weighted_3m": {
+          "anyOf": [
+            {
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null
+        },
+        "equal_weighted_6m": {
+          "anyOf": [
+            {
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null
+        },
+        "equal_weighted_ytd": {
+          "anyOf": [
+            {
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null
+        },
+        "market_cap": {
+          "type": "number"
+        },
+        "market_cap_weight": {
+          "anyOf": [
+            {
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "pct_above_sma200": {
+          "anyOf": [
+            {
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "sector": {
+          "type": "string"
+        },
+        "traded_count": {
+          "type": "integer"
+        },
+        "turnover": {
+          "type": "number"
+        }
+      },
+      "required": [
+        "sector",
+        "count",
+        "traded_count",
+        "market_cap",
+        "market_cap_weight",
+        "advancers",
+        "decliners",
+        "advancing_pct",
+        "pct_above_sma200",
+        "turnover"
+      ],
+      "title": "SectorRow",
+      "type": "object"
+    }
+  },
+  "additionalProperties": false,
+  "properties": {
+    "date": {
+      "type": "string"
+    },
+    "history": {
+      "$ref": "#/$defs/Columnar"
+    },
+    "latest": {
+      "items": {
+        "$ref": "#/$defs/SectorRow"
+      },
+      "type": "array"
+    },
+    "rotation": {
+      "items": {
+        "$ref": "#/$defs/RotationRow"
+      },
+      "type": "array"
+    }
+  },
+  "required": [
+    "date",
+    "latest",
+    "rotation",
+    "history"
+  ],
+  "title": "SectorsFile",
+  "type": "object"
+}

@@ -1,0 +1,47 @@
+{
+  "additionalProperties": false,
+  "description": "The daily breadth series. Columnar because it is one row per session.",
+  "properties": {
+    "columns": {
+      "additionalProperties": {
+        "items": {
+          "anyOf": [
+            {
+              "type": "number"
+            },
+            {
+              "type": "integer"
+            },
+            {
+              "type": "string"
+            },
+            {
+              "type": "boolean"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "type": "array"
+      },
+      "type": "object"
+    },
+    "fields": {
+      "items": {
+        "type": "string"
+      },
+      "type": "array"
+    },
+    "n": {
+      "type": "integer"
+    }
+  },
+  "required": [
+    "n",
+    "fields",
+    "columns"
+  ],
+  "title": "BreadthFile",
+  "type": "object"
+}
