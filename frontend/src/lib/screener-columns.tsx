@@ -184,15 +184,3 @@ export const DEFAULT_COLUMNS = [
   "dividend_yield_recent",
   "rs_rating",
 ];
-
-export const COLUMN_GROUPS = [
-  "Identity",
-  "Price",
-  "Performance",
-  "Trend",
-  "Technicals",
-  "Valuation",
-  "Scores",
-  "Volume",
-  "Size",
-] as const;

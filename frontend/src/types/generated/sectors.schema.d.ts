@@ -2,22 +2,8 @@
 
 export interface SectorsFile {
   date: string;
-  history: Columnar;
   latest: SectorRow[];
   rotation: RotationRow[];
-}
-/**
- * Parallel arrays keyed by field name.
- *
- * Used for the row-heavy payloads: with ~2,100 rows the repeated JSON keys of
- * an array-of-objects would be more than half the file.
- */
-export interface Columnar {
-  columns: {
-    [k: string]: (number | string | boolean | null)[];
-  };
-  fields: string[];
-  n: number;
 }
 /**
  * One sector's aggregates for a Session.

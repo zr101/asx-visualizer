@@ -116,13 +116,3 @@ def add_derived(df: pd.DataFrame) -> pd.DataFrame:
 
     return out
 
-
-DERIVED_COLUMNS = [
-    "pct_from_52w_high", "pct_from_52w_low", "range_position_52w",
-    "pct_vs_sma20", "pct_vs_sma50", "pct_vs_sma200",
-    "above_sma20", "above_sma50", "above_sma200", "sma50_above_sma200",
-    "macd_histogram", "bb_percent_b", "bb_bandwidth", "atr_pct",
-    "pct_vs_vwap", "day_range_position", "turnover",
-    "earnings_yield", "book_yield", "sales_yield", "debt_to_market_cap",
-    "is_profitable",
-]

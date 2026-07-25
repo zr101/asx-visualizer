@@ -286,7 +286,6 @@ class SectorsFile(Payload):
     date: str
     latest: list[SectorRow]
     rotation: list[RotationRow]
-    history: Columnar
 
 
 class SignalsFile(Payload):

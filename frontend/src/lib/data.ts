@@ -73,7 +73,3 @@ export async function getStockSeries(symbol: string): Promise<StockSeriesPoint[]
     volume: entry.v[position] ?? null,
   }));
 }
-
-export async function getAllSymbols(): Promise<string[]> {
-  return Object.keys((await getSeries()).series);
-}

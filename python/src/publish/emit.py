@@ -56,10 +56,6 @@ SECTOR_FIELDS = [
 ] + [f"{w}_{p}" for w in ("cap_weighted", "equal_weighted")
      for p in ("1d", "1w", "1m", "3m", "6m", "ytd", "1y")]
 
-SECTOR_HISTORY_FIELDS = [
-    "date", "sector", "cap_weighted_change", "equal_weighted_change", "cumulative_index",
-]
-
 SIGNAL_FIELDS = [
     "symbol", "name", "description", "sector", "close", "change",
     "volume", "relative_volume_10d_calc", "RSI", "market_cap_basic",
@@ -220,16 +216,11 @@ def build_payloads(archive: Archive, indices: pd.DataFrame | None = None) -> dic
 
     # --- Sectors ------------------------------------------------------------
     sector_latest = sectors.of(session)
-    sector_history = sectors.over(archive).copy()
-    if not sector_history.empty:
-        sector_history["date"] = sector_history["date"].astype(str)
-
     sector_rows = [P.SectorRow(**row) for row in records(sector_latest, SECTOR_FIELDS)]
     sectors_file = P.SectorsFile(
         date=latest,
         latest=sector_rows,
         rotation=[P.RotationRow(**row) for row in sectors.rotation_table(sector_latest)],
-        history=P.Columnar(**to_columnar(sector_history, SECTOR_HISTORY_FIELDS)),
     )
 
     # --- Signals ------------------------------------------------------------

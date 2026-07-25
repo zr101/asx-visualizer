@@ -38,6 +38,7 @@ import type { BreadthReading } from "./generated/pulse.schema";
 /** The columnar envelope shared by the row-heavy payloads. */
 export type Columnar = Pick<BreadthFile, "n" | "fields" | "columns">;
 
+
 /** One row of the breadth series: the reading plus its cumulative measures. */
 export interface BreadthPoint extends BreadthReading {
   date: string;

@@ -21,11 +21,6 @@ export function formatLargeNumber(value: number | null | undefined): string {
   return `${sign}$${abs.toFixed(2)}`;
 }
 
-export function formatVolume(value: number | null | undefined): string {
-  if (value === null || value === undefined || !Number.isFinite(value)) return DASH;
-  return value.toLocaleString("en-AU", { maximumFractionDigits: 0 });
-}
-
 export function formatCompact(value: number | null | undefined): string {
   if (value === null || value === undefined || !Number.isFinite(value)) return DASH;
   const abs = Math.abs(value);
@@ -82,14 +77,6 @@ export function formatDate(value: string | null | undefined): string {
   });
 }
 
-export function formatDateShort(value: string | null | undefined): string {
-  if (!value) return DASH;
-  const date = new Date(`${value}T00:00:00`);
-  if (Number.isNaN(date.getTime())) return value;
-  return date.toLocaleDateString("en-AU", { day: "numeric", month: "short" });
-}
-
-/** Strip the exchange prefix: "ASX:BHP" -> "BHP". */
 export function tickerOf(symbol: string): string {
   return symbol.includes(":") ? symbol.split(":")[1] : symbol;
 }

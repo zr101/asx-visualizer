@@ -77,39 +77,6 @@ def percentile_rank(series: pd.Series, higher_is_better: bool = True) -> pd.Seri
     return ranked.round(2)
 
 
-def add_percentile_ranks(
-    df: pd.DataFrame,
-    columns: dict[str, bool] | None = None,
-    suffix: str = "_pct_rank",
-) -> pd.DataFrame:
-    """Append percentile-rank columns for the given metrics."""
-    if columns is None:
-        columns = {
-            column: higher
-            for definition in FACTOR_DEFINITIONS.values()
-            for column, higher in definition
-        }
-
-    out = df.copy()
-    for column, higher_is_better in columns.items():
-        if column in out.columns:
-            out[f"{column}{suffix}"] = percentile_rank(out[column], higher_is_better)
-    return out
-
-
-def zscore(series: pd.Series, clip: float = 3.0) -> pd.Series:
-    """Standard score, winsorised at +/- `clip` standard deviations.
-
-    Clipping matters here: a shell company up 500% would otherwise dominate any
-    composite it appears in.
-    """
-    values = pd.to_numeric(series, errors="coerce")
-    std = values.std()
-    if not std or not np.isfinite(std):
-        return pd.Series(np.nan, index=series.index, dtype="float64")
-    return ((values - values.mean()) / std).clip(-clip, clip)
-
-
 def factor_scores(df: pd.DataFrame) -> pd.DataFrame:
     """Composite 0-100 factor scores, one column per factor.
 
@@ -135,25 +102,6 @@ def factor_scores(df: pd.DataFrame) -> pd.DataFrame:
         out[f"{factor}_inputs"] = stacked.notna().sum(axis=1).astype(int)
 
     return out
-
-
-def rank_within_sector(
-    df: pd.DataFrame,
-    column: str,
-    higher_is_better: bool = True,
-) -> pd.Series:
-    """Percentile rank of a metric within each stock's own sector.
-
-    A miner's momentum is more informative measured against other miners than
-    against the whole market.
-    """
-    if column not in df.columns or "sector" not in df.columns:
-        return pd.Series(np.nan, index=df.index, dtype="float64")
-
-    return (
-        df.groupby("sector", dropna=False)[column]
-        .transform(lambda s: percentile_rank(s, higher_is_better))
-    )
 
 
 def add_rs_rating(df: pd.DataFrame) -> pd.DataFrame:

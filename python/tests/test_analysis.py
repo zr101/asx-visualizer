@@ -172,13 +172,6 @@ class TestRanking:
         result = ranking.percentile_rank(pd.Series([None, None], dtype="float64"))
         assert result.isna().all()
 
-    def test_zscore_is_clipped(self):
-        values = pd.Series([1.0] * 20 + [1000.0])
-        assert ranking.zscore(values, clip=3.0).max() <= 3.0
-
-    def test_constant_series_has_no_zscore(self):
-        assert ranking.zscore(pd.Series([5.0, 5.0, 5.0])).isna().all()
-
     def test_factor_score_records_how_many_inputs_contributed(self):
         """A score built on one input must be distinguishable from one built on three.
 

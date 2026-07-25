@@ -1,52 +1,5 @@
 {
   "$defs": {
-    "Columnar": {
-      "additionalProperties": false,
-      "description": "Parallel arrays keyed by field name.\n\nUsed for the row-heavy payloads: with ~2,100 rows the repeated JSON keys of\nan array-of-objects would be more than half the file.",
-      "properties": {
-        "columns": {
-          "additionalProperties": {
-            "items": {
-              "anyOf": [
-                {
-                  "type": "number"
-                },
-                {
-                  "type": "integer"
-                },
-                {
-                  "type": "string"
-                },
-                {
-                  "type": "boolean"
-                },
-                {
-                  "type": "null"
-                }
-              ]
-            },
-            "type": "array"
-          },
-          "type": "object"
-        },
-        "fields": {
-          "items": {
-            "type": "string"
-          },
-          "type": "array"
-        },
-        "n": {
-          "type": "integer"
-        }
-      },
-      "required": [
-        "n",
-        "fields",
-        "columns"
-      ],
-      "title": "Columnar",
-      "type": "object"
-    },
     "RotationRow": {
       "additionalProperties": false,
       "description": "A sector's return in each window, with its rank in that window.\n\nThe ranks drive the shading in the rotation table and were previously\nundeclared on the frontend, reachable only through an index signature that\nalso made every typo compile.",
@@ -450,9 +403,6 @@
     "date": {
       "type": "string"
     },
-    "history": {
-      "$ref": "#/$defs/Columnar"
-    },
     "latest": {
       "items": {
         "$ref": "#/$defs/SectorRow"
@@ -469,8 +419,7 @@
   "required": [
     "date",
     "latest",
-    "rotation",
-    "history"
+    "rotation"
   ],
   "title": "SectorsFile",
   "type": "object"

@@ -68,21 +68,6 @@ def investable(
     return liquid(common_stocks(df), min_turnover)
 
 
-def coverage(df: pd.DataFrame, columns: list[str]) -> dict[str, float]:
-    """Fraction of rows with a non-null value, per column.
-
-    Surfaced in the UI rather than hidden: a P/E percentile computed over the
-    32% of stocks that report earnings means something quite different from one
-    computed over all of them, and the reader deserves to know which they have.
-    """
-    if df.empty:
-        return {column: 0.0 for column in columns}
-    return {
-        column: float(df[column].notna().mean()) if column in df.columns else 0.0
-        for column in columns
-    }
-
-
 def summarise(df: pd.DataFrame) -> dict:
     """Composition of a single day's cross-section, for provenance display."""
     total = len(df)

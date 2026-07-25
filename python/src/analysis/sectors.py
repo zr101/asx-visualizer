@@ -16,7 +16,6 @@ from __future__ import annotations
 import numpy as np
 import pandas as pd
 
-from .archive import Archive
 from .derived import numeric
 from .session import Session
 
@@ -29,18 +28,6 @@ PERFORMANCE_WINDOWS = {
     "ytd": "Perf.YTD",
     "1y": "Perf.Y",
 }
-
-# The official S&P/ASX GICS sector indices, used as an independent cross-check
-# on the aggregates computed from constituents.
-SECTOR_INDICES = {
-    "ASX:XMJ": "Materials",
-    "ASX:XFJ": "Financials",
-    "ASX:XEJ": "Energy",
-    "ASX:XHJ": "Health Care",
-    "ASX:XIJ": "Information Technology",
-    "ASX:XNJ": "Industrials",
-}
-
 
 def _weighted_mean(values: pd.Series, weights: pd.Series) -> float | None:
     mask = values.notna() & weights.notna() & (weights > 0)
@@ -110,51 +97,6 @@ def of(session: Session) -> pd.DataFrame:
         (out["market_cap"] / total_cap * 100).round(2) if total_cap else None
     )
     return out.sort_values("market_cap", ascending=False).reset_index(drop=True)
-
-
-def over(archive: Archive) -> pd.DataFrame:
-    """Cap-weighted daily sector returns across the Archive, for rotation.
-
-    Previously this skipped the traded mask that `breadth.over` applies, so the
-    sector cumulative index and the market index disagreed by construction.
-    Taking Sessions makes that impossible.
-    """
-    if not len(archive):
-        return pd.DataFrame()
-
-    rows = []
-    for session in archive:
-        stocks = session.stocks
-        stocks = stocks[stocks["sector"].notna()]
-        if stocks.empty:
-            continue
-        for sector, group in stocks.groupby("sector", sort=True):
-            weights = numeric(group, "market_cap_basic")
-            traded = group["traded"].fillna(False).astype(bool)
-            change = numeric(group, "change").where(traded)
-            rows.append({
-                "date": session.date,
-                "sector": sector,
-                "count": len(group),
-                "cap_weighted_change": _round(_weighted_mean(change, weights)),
-                "equal_weighted_change": _round(
-                    float(change.mean()) if change.notna().any() else None
-                ),
-            })
-
-    if not rows:
-        return pd.DataFrame()
-
-    out = pd.DataFrame(rows).sort_values(["sector", "date"]).reset_index(drop=True)
-
-    # Compound daily returns into a rebased index (100 at inception) so sectors
-    # are visually comparable regardless of starting level.
-    out["cumulative_index"] = (
-        out.groupby("sector")["cap_weighted_change"]
-        .transform(lambda s: (1 + s.fillna(0) / 100).cumprod() * 100)
-        .round(3)
-    )
-    return out
 
 
 def rotation_table(sector_perf: pd.DataFrame) -> list[dict]:
